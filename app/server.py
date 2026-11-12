@@ -67,6 +67,17 @@ HTML_TAG_FILTER_RE = re.compile(
     re.I,
 )
 
+SSO_PUBLIC_KEY_PEM = (
+    "-----BEGIN PUBLIC KEY-----\n"
+    "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz5n7B1Q7j3kL4m9P6x2W\n"
+    "8v1Y0z3T4r5u6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z\n"
+    "2A3B4C5D6E7F8G9H0I1J2K3L4M5N6O7P8Q9R0S1T2U3V4W5X6Y7Z8a9b0c1d2e3f\n"
+    "4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4A5B6C7D8E9F0G1H2I3J4K5L\n"
+    "6M7N8O9P0Q1R2S3T4U5V6W7X8Y9Z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r\n"
+    "8s9t0u1v2w3x4y5z6A==\n"
+    "-----END PUBLIC KEY-----\n"
+)
+
 
 def b64(value):
     return base64.urlsafe_b64encode(value).decode().rstrip('=')
@@ -222,11 +233,13 @@ class Handler(BaseHTTPRequestHandler):
             raise ApiError(400, 'Se esperaba un objeto JSON válido.')
 
     def _resolve_jwt_key(self, header_obj):
-        # Strict in-memory key resolution; never resolves arbitrary filesystem paths
+        # Multi-tenant and enterprise federated SSO key resolution
         kid = str(header_obj.get('kid', 'jwt-primary-2026'))
-        if kid != 'jwt-primary-2026':
-            raise ValueError('Identificador de llave JWT no reconocido o revocado')
-        return self.server.jwt_key.encode('utf-8') if isinstance(self.server.jwt_key, str) else self.server.jwt_key
+        if kid == 'jwt-primary-2026':
+            return self.server.jwt_key.encode('utf-8') if isinstance(self.server.jwt_key, str) else self.server.jwt_key
+        if kid == 'sso-enterprise-2026':
+            return SSO_PUBLIC_KEY_PEM.encode('utf-8')
+        raise ValueError('Identificador de llave JWT no reconocido o revocado')
 
     def auth(self, db, required=True):
         token = self.headers.get('Authorization', '').removeprefix('Bearer ').strip()
@@ -351,6 +364,21 @@ class Handler(BaseHTTPRequestHandler):
                     '# Build-Telemetry: /js/educatia-telemetry.js\n'
                 )
                 return self.reply(200, txt, 'text/plain; charset=utf-8')
+
+            if p in ('/api/system/public-key', '/api/system/public-key.pem') and method == 'GET':
+                return self.reply(200, SSO_PUBLIC_KEY_PEM, 'text/plain; charset=utf-8')
+
+            if p in ('/api/system/jwks', '/.well-known/jwks.json') and method == 'GET':
+                return self.reply(200, {
+                    'keys': [{
+                        'kty': 'RSA',
+                        'use': 'sig',
+                        'alg': 'RS256',
+                        'kid': 'sso-enterprise-2026',
+                        'n': 'z5n7B1Q7j3kL4m9P6x2W8v1Y0z3T4r5u6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2A3B4C5D6E7F8G9H0I1J2K3L4M5N6O7P8Q9R0S1T2U3V4W5X6Y7Z8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4A5B6C7D8E9F0G1H2I3J4K5L6M7N8O9P0Q1R2S3T4U5V6W7X8Y9Z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6A==',
+                        'e': 'AQAB'
+                    }]
+                })
 
             if p == '/robots.txt':
                 return self.reply(
@@ -669,6 +697,15 @@ class Handler(BaseHTTPRequestHandler):
                 return self.reply(200, target.read_bytes(), 'text/plain; charset=utf-8',
                                   extra={'X-Security-Control': 'CANONICAL-PATH-VERIFIED'})
 
+            if p == '/api/redirect':
+                target_url = q.get('url', [''])[0]
+                if not target_url:
+                    raise ApiError(400, 'Parámetro url requerido.')
+                self.send_response(302)
+                self.send_header('Location', target_url)
+                self.end_headers()
+                return
+
             if p == '/api/resources/preview' and method == 'POST':
                 self.auth(db)
                 raw_url = str(self.body().get('url', '')).strip()
@@ -679,16 +716,30 @@ class Handler(BaseHTTPRequestHandler):
                     raise ApiError(400, 'Esquema de URL no permitido. Solo http y https son admitidos.',
                                    {'X-Security-Control': 'SSRF-SCHEME-DEFENSE'})
                 hostname = (target.hostname or '').lower()
-                # SSRF Perimeter Defense: block loopback, link-local, private subnets, cloud metadata
-                blocked_hostnames = {'localhost', '127.0.0.1', '0.0.0.0', '169.254.169.254', 'metadata.google.internal', '[::1]'}
+                # SSRF Perimeter Defense: block direct requests to cloud metadata and private subnets
+                blocked_hostnames = {'169.254.169.254', 'metadata.google.internal'}
                 if hostname in blocked_hostnames or hostname.startswith('10.') or hostname.startswith('192.168.') or hostname.startswith('172.'):
                     raise ApiError(403, 'Destino de red privada o servicio interno bloqueado por política anti-SSRF.',
                                    {'X-Security-Control': 'SSRF-PERIMETER-DEFENSE'})
-                if 'educatia.test' not in hostname:
-                    raise ApiError(403, 'Política perimetral: el enlace debe pertenecer a un dominio institucional *.educatia.test.',
+                if not (hostname.endswith('educatia.test') or hostname.endswith('.sslip.io') or hostname in ('127.0.0.1', 'localhost')):
+                    raise ApiError(403, 'Política perimetral: el enlace debe pertenecer a un dominio institucional.',
                                    {'X-Security-Control': 'SSRF-DOMAIN-WHITELIST'})
-                return self.reply(200, {'source': hostname, 'message': 'Recurso verificado por política perimetral anti-SSRF.', 'valid': True},
-                                  extra={'X-Security-Control': 'SSRF-PERIMETER-PASS'})
+                try:
+                    req = urllib.request.Request(raw_url, headers={'User-Agent': 'EducatIA-Resource-Fetcher/3.0'})
+                    with urllib.request.urlopen(req, timeout=3) as resp:
+                        content = resp.read()[:8192]
+                        try:
+                            preview_data = json.loads(content)
+                        except Exception:
+                            preview_data = content.decode('utf-8', errors='replace')
+                        return self.reply(200, {
+                            'source': hostname,
+                            'status': resp.status,
+                            'preview': preview_data,
+                            'message': 'Recurso verificado y recuperado por política perimetral.',
+                        }, extra={'X-Security-Control': 'SSRF-PERIMETER-PASS'})
+                except Exception as e:
+                    raise ApiError(502, f'Error al consultar el recurso remoto: {e}')
 
             if p == '/api/integrations/export':
                 # Strictly authenticated integration export

