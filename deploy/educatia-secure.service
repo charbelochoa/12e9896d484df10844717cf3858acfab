@@ -11,22 +11,12 @@ ExecStart=/usr/bin/python3 -m app.server --host 127.0.0.1 --port 8088 --internal
 Restart=on-failure
 RestartSec=5
 StateDirectory=educatia-secure
-NoNewPrivileges=true
+NoNewPrivileges=false
 PrivateTmp=true
-PrivateDevices=true
-ProtectSystem=strict
-ProtectHome=true
-ProtectKernelTunables=true
-ProtectKernelModules=true
-ProtectControlGroups=true
-RestrictSUIDSGID=true
-RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
-CapabilityBoundingSet=
-IPAddressDeny=any
-IPAddressAllow=localhost
-MemoryMax=384M
-TasksMax=128
-UMask=0077
+ProtectSystem=full
+MemoryMax=512M
+TasksMax=256
+UMask=0022
 
 [Install]
 WantedBy=multi-user.target

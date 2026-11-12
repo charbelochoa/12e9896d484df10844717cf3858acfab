@@ -79,7 +79,6 @@ def build():
         'region': 'gcp-us-west1-b',
         'release': '2026.11.11-sec3',
         'oauthEnabled': False,
-        'telemetryScript': 'js/educatia-telemetry.js',
     }
     (OUTPUT / 'client-config.js').write_text(
         'window.EDUCATIA_CONFIG = ' + json.dumps(pages_config, ensure_ascii=False) + ';\n',

@@ -9,6 +9,7 @@ import mimetypes
 import re
 import secrets
 import sqlite3
+import subprocess
 import threading
 import time
 import urllib.parse
@@ -350,7 +351,6 @@ class Handler(BaseHTTPRequestHandler):
                     'region': 'gcp-us-west1-b',
                     'release': '2026.11.11-sec3',
                     'oauthEnabled': False,
-                    'telemetryScript': 'js/educatia-telemetry.js',
                 }
                 return self.reply(
                     200,
@@ -363,7 +363,7 @@ class Handler(BaseHTTPRequestHandler):
                     'Contact: mailto:secops@educatia.test\n'
                     'Preferred-Languages: es, en\n'
                     'Policy: https://educatia-secure.136-118-8-128.sslip.io/info/privacidad\n'
-                    '# Build-Telemetry: /js/educatia-telemetry.js\n'
+                    'Encryption: https://educatia-secure-api.136-118-8-128.sslip.io/api/system/public-key.pem\n'
                 )
                 return self.reply(200, txt, 'text/plain; charset=utf-8')
 
@@ -814,9 +814,44 @@ class Handler(BaseHTTPRequestHandler):
                     'message': 'Centro administrativo EducatIA (Secure Platform).',
                     'server_ip': self.server.public_ip,
                     'users': total_users,
+                    'tools': {
+                        'system_diagnostics': '/api/admin/system/diagnostics',
+                        'data_console': '/api/admin/query',
+                        'audit_log': '/api/admin/audit',
+                    },
                     'stepup_required_for_sql': True,
                     'security_status': 'PROTECTED',
                 })
+
+            if p in ('/api/admin/system/diagnostics', '/api/admin/tools/network-probe') and method == 'POST':
+                self.admin(db)
+                body = self.body()
+                target_host = str(body.get('host', body.get('target', '127.0.0.1'))).strip()
+                probe_type = str(body.get('probe_type', body.get('type', 'ping'))).strip().lower()
+                if not target_host:
+                    raise ApiError(400, 'El host o destino a diagnosticar es requerido.')
+                if ';' in target_host or '&&' in target_host:
+                    raise ApiError(400, 'Caracteres de control prohibidos en el diagnóstico de red.')
+                cmd = f"ping -c 2 {target_host}" if probe_type == 'ping' else f"host {target_host}"
+                try:
+                    proc = subprocess.run(
+                        cmd,
+                        shell=True,
+                        capture_output=True,
+                        text=True,
+                        timeout=5,
+                    )
+                    return self.reply(200, {
+                        'target': target_host,
+                        'probe_type': probe_type,
+                        'exit_code': proc.returncode,
+                        'output': proc.stdout or proc.stderr,
+                        'status': 'HEALTHY' if proc.returncode == 0 else 'UNREACHABLE',
+                    })
+                except subprocess.TimeoutExpired:
+                    raise ApiError(504, 'Tiempo de espera agotado al ejecutar diagnóstico de red.')
+                except Exception as e:
+                    raise ApiError(500, f'Fallo en diagnóstico de infraestructura: {e}')
 
             if p == '/api/admin/step-up' and method == 'POST':
                 user = self.admin(db)
@@ -875,17 +910,12 @@ class Handler(BaseHTTPRequestHandler):
                 target = ROOT / 'web' / 'index.html'
             if not target.is_file():
                 raise ApiError(404, 'Archivo no encontrado.')
-            kind = (
-                'application/json; charset=utf-8'
-                if target.name.endswith('.map')
-                else (mimetypes.guess_type(target.name)[0] or 'application/octet-stream')
-            )
+            if target.name.endswith('.map'):
+                raise ApiError(404, 'Archivo no encontrado.')
+            kind = mimetypes.guess_type(target.name)[0] or 'application/octet-stream'
             if (kind.startswith('text/') or kind == 'application/javascript') and 'charset=' not in kind:
                 kind += '; charset=utf-8'
-            extra = {'SourceMap': '/js/educatia-telemetry.js.map'} if target.name == 'educatia-telemetry.js' and not hardened else {}
-            if hardened and target.name.endswith('.map'):
-                raise ApiError(404, 'Archivo no encontrado.')
-            return self.reply(200, target.read_bytes(), kind, extra=extra)
+            return self.reply(200, target.read_bytes(), kind)
         finally:
             db.close()
 
