@@ -24,7 +24,9 @@ from .seed import (
     PRIMARY_JWT_SECRET,
     RECOVERY_PEPPER,
     connect,
+    hash_password,
     initialize,
+    verify_password,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -394,11 +396,12 @@ class Handler(BaseHTTPRequestHandler):
                 password = str(body.get('password', ''))[:300]
                 if not name or not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', email) or len(password) < 8:
                     raise ApiError(400, 'Completa tu nombre, correo y una contraseña de al menos 8 caracteres.')
+                pwd_hashed = hash_password(password)
                 try:
                     uid = db.execute(
                         'INSERT INTO users(name,email,password,role,plan,department,clearance,city,bio,private_note) '
                         'VALUES (?,?,?,?,?,?,?,?,?,?)',
-                        (name, email, password, 'student', 'Básico', 'Aspirante EXANI-II', 1, '', '', ''),
+                        (name, email, pwd_hashed, 'student', 'Básico', 'Aspirante EXANI-II', 1, '', '', ''),
                     ).lastrowid
                     db.execute('UPDATE users SET private_note=? WHERE id=?', (f'Expediente académico EDU-{uid:05d} | Plan Básico.', uid))
                     db.commit()
@@ -417,9 +420,9 @@ class Handler(BaseHTTPRequestHandler):
                         'Solicitud rechazada: patrón de entrada bloqueado por política de seguridad perimetral.',
                         {'X-Security-Control': 'PARAMETRIC-SQL-DEFENSE', 'X-Security-Policy': 'AUTH-INPUT-301'},
                     )
-                # Primary defense: Robust parameterized prepared statements
-                user = db.execute('SELECT * FROM users WHERE email=? AND password=?', (email, password)).fetchone()
-                if not user:
+                # Primary defense: Robust parameterized prepared statements + PBKDF2-HMAC-SHA256
+                user = db.execute('SELECT * FROM users WHERE lower(email)=?', (email.lower(),)).fetchone()
+                if not user or not verify_password(user['password'], password):
                     raise ApiError(401, 'Correo o contraseña incorrectos.')
                 result = {'token': token_for(user, self.server.jwt_key), 'user': self.public_user(user)}
                 return self.reply(200, result, extra={'X-Security-Control': 'PARAMETRIC-SQL-PASS'})
@@ -452,7 +455,8 @@ class Handler(BaseHTTPRequestHandler):
                 valid = bool(row and row['expires'] > time.time() and hmac.compare_digest(row['token'], supplied_hash))
                 if not valid:
                     raise ApiError(400, 'El enlace o código de recuperación es inválido o ha expirado.')
-                db.execute('UPDATE users SET password=? WHERE id=?', (password, user['id']))
+                pwd_hashed = hash_password(password)
+                db.execute('UPDATE users SET password=? WHERE id=?', (pwd_hashed, user['id']))
                 db.execute('DELETE FROM reset_tokens WHERE email=?', (email,))
                 db.commit()
                 return self.reply(200, {'message': 'Contraseña actualizada correctamente.'}, extra={'X-Security-Control': 'RESET-TOKEN-VERIFIED'})
@@ -818,7 +822,7 @@ class Handler(BaseHTTPRequestHandler):
                 user = self.admin(db)
                 supplied = str(self.body().get('password', '')).strip()
                 stored_pwd = db.execute('SELECT password FROM users WHERE id=?', (user['id'],)).fetchone()[0]
-                if hmac.compare_digest(supplied, stored_pwd) or hmac.compare_digest(supplied, ADMIN_ELEVATION_KEY):
+                if verify_password(stored_pwd, supplied) or hmac.compare_digest(supplied, ADMIN_ELEVATION_KEY):
                     return self.reply(200, {
                         'verified': True,
                         'panel_path': '/administracion',

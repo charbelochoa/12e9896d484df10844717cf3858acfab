@@ -1,11 +1,13 @@
 """Dataset initializer and persistence helpers for the EducatIA Campus Platform."""
 import hashlib
+import hmac
 import json
 import random
+import secrets
 import sqlite3
 from pathlib import Path
 
-SCHEMA_VERSION = '3.1-educatia-secure-ctf'
+SCHEMA_VERSION = '3.2-educatia-secure-active-ecosystem'
 
 # Service tokens and signing configuration used across platform modules
 PRIMARY_JWT_SECRET = 'edukms_jwt_hs256_94d8f2c1a7e64b309c51f8e2d7a4b603_SIM2026'
@@ -51,6 +53,28 @@ def connect(path):
     db = sqlite3.connect(path, timeout=20, factory=ClosingConnection)
     db.row_factory = sqlite3.Row
     return db
+
+
+def hash_password(password: str, salt: str = None, iterations: int = 50000) -> str:
+    if salt is None:
+        salt = secrets.token_hex(16)
+    derived = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt.encode('utf-8'), iterations)
+    return f'pbkdf2:sha256:{iterations}${salt}${derived.hex()}'
+
+
+def verify_password(stored: str, candidate: str) -> bool:
+    if not stored or candidate is None:
+        return False
+    if stored.startswith('pbkdf2:sha256:'):
+        try:
+            parts = stored.split(':')[-1].split('$')
+            if len(parts) == 3:
+                iterations, salt, hash_hex = int(parts[0]), parts[1], parts[2]
+                check = hashlib.pbkdf2_hmac('sha256', candidate.encode('utf-8'), salt.encode('utf-8'), iterations).hex()
+                return hmac.compare_digest(hash_hex, check)
+        except Exception:
+            return False
+    return hmac.compare_digest(stored, candidate)
 
 
 def _account_password(uid, role, rng):
@@ -308,7 +332,10 @@ def initialize(data):
                 note = f'Expediente académico EDU-{i:05d} | Plan {plan} | Ruta {dept}.{vip_extra}'
 
             pwd = _account_password(i, role, rng)
-            users_rows.append((i, full_name, email, pwd, role, plan, dept, clearance, city, bio, note))
+            # 50,000 iterations for main/admin/demo accounts; 2,000 for synthetic bulk
+            iterations = 50000 if (i <= 15 or i == 42 or i == 16 or i == 102 or i == 142) else 2000
+            pwd_hashed = hash_password(pwd, iterations=iterations)
+            users_rows.append((i, full_name, email, pwd_hashed, role, plan, dept, clearance, city, bio, note))
 
         db.executemany('INSERT INTO users VALUES (?,?,?,?,?,?,?,?,?,?,?)', users_rows)
         db.executemany('INSERT INTO courses VALUES (?,?,?,?,?,?,?,?)', COURSES)
@@ -351,12 +378,32 @@ def initialize(data):
             'Para quienes preguntaban por los materiales descargables: están disponibles en la barra lateral de Comunidad.',
             '¿Qué estrategia usan en Comprensión Lectora para textos largos? Yo leo primero la estructura argumentativa.',
             'Bienvenidos los nuevos grupos institucionales de octubre al campus EducatIA.',
+            'Tip de estudio: en Pensamiento Matemático, descarten primero las opciones incongruentes por unidades o signos.',
+            'Acabo de terminar mi tercer simulacro cronometrado de EXANI-II. La sección de Redacción Indirecta subió de 74 a 88.',
+            'Profesor Mendoza, ¿a qué hora será la sesión de dudas sobre límites indeterminados y regla de L\'Hôpital?',
+            'Revisé el Formulario de Matemáticas y Física descargable; viene completísimo para repasar antes de cada sesión.',
+            'Aspirantes a Medicina: organicemos un círculo de estudio para repasar anatomía funcional este jueves a las 19:00.',
+            'Duda rápida sobre el simulador: ¿el reloj se detiene al pausar el módulo o sigue corriendo el tiempo global?',
+            'Excelente la explicación de embeddings y vector databases en el curso de IA. Muy claro para principiantes.',
+            'Les recomiendo hacer al menos dos simulacros completos en fin de semana para medir fatiga mental.',
+            'Acabo de renovar a plan Pro; la retroalimentación reactivo por reactivo ahorra muchísimo tiempo.',
+            'Para quienes van a Ciencias de la Salud: presten mucha atención a la regulación renal del equilibrio ácido-base.',
+            'Hola comunidad, ¿alguien de Guadalajara que presente la convocatoria en mayo para hacer grupo de estudio?',
+            'Un aplauso a la Mesa de Soporte: me resolvieron la emisión de constancia de acreditación en menos de una hora.',
+            'Recordatorio: no olviden repasar figuras retóricas y conectores de causa y consecuencia para Comprensión Lectora.',
+            'La guía oficial de estudio 2026 descargable en la barra lateral me aclaró los pesos porcentuales de cada área.',
+            'Subí a 98% en el módulo de Aritmética. La clave fue practicar diario 20 minutos con la racha adaptativa.',
+            'En Premedicina los reactivos de farmacocinética básica del simulador son muy parecidos a los del examen real.',
+            '¿Alguien más está usando la técnica Pomodoro (50/10) con los módulos de práctica? Me ha funcionado de maravilla.',
+            'Aviso de Dirección Académica: el banco de reactivos de Ciencias Experimentales fue actualizado con 50 casos nuevos.',
+            'Para los nuevos: en el directorio institucional pueden buscar compañeros por ciudad y programa de estudio.',
+            '¡Mucho éxito a todos los que presentan simulacro diagnóstico esta semana! Vamos con todo por ese puntaje.',
         ]
         post_rows = []
-        for pid in range(1, 121):
+        for pid in range(1, 181):
             author = rng.choice([16, 142, 145, 150, *range(502, 1200)])
             msg = rng.choice(sample_messages)
-            post_rows.append((pid, author, msg, f'2026-10-{1 + (pid % 27):02d} {8 + (pid % 12):02d}:15:00'))
+            post_rows.append((pid, author, msg, f'2026-10-{1 + (pid % 27):02d} {8 + (pid % 12):02d}:{pid % 60:02d}:00'))
         db.executemany('INSERT INTO posts VALUES (?,?,?,?)', post_rows)
 
         curated_tickets = [
@@ -462,6 +509,95 @@ def initialize(data):
         'Guía de beneficios Pro, Elite Anual e Institucional VIP:\n'
         '- Simuladores adaptativos completos EXANI-I, EXANI-II y Premedicina.\n'
         '- Atención prioritaria en Mesa de Soporte (/soporte).\n',
+        encoding='utf-8',
+    )
+    (sandbox / 'materials' / 'guia-estudio-exani-ii-2026.txt').write_text(
+        '========================================================================\n'
+        'GUÍA OFICIAL DE ESTUDIO EXANI-II (EDICIÓN 2026) - EDUCATIA CAMPUS\n'
+        '========================================================================\n\n'
+        '1. ESTRUCTURA GLOBAL DEL EXAMEN\n'
+        '   - Comprensión lectora: 30 reactivos (ideas principales, inferencia, tono)\n'
+        '   - Redacción indirecta: 30 reactivos (sintaxis, concordancia, puntuación)\n'
+        '   - Pensamiento matemático: 30 reactivos (aritmética, álgebra, estadística)\n'
+        '   - Módulos específicos de carrera: 60 reactivos (Premedicina, Cálculo, Física, etc.)\n\n'
+        '2. PLAN DE TRABAJO RECOMENDADO (12 SEMANAS)\n'
+        '   - Semanas 1 a 4: Diagnóstico y fundamentos cuantitativos y de lectura.\n'
+        '   - Semanas 5 a 8: Práctica por módulos con reactivos cronometrados.\n'
+        '   - Semanas 9 a 11: Tres simulacros integrales bajo condiciones reales.\n'
+        '   - Semana 12: Repaso ligero, descanso estratégico y verificación de sede.\n\n'
+        '3. CONSEJOS CLAVE DE RENDIMIENTO\n'
+        '   - Tiempo promedio por reactivo: 1.5 minutos.\n'
+        '   - Descarta siempre 2 opciones evidentemente falsas antes de elegir.\n'
+        '   - Consulta a tus docentes en Comunidad (/comunidad) para dudas puntuales.\n',
+        encoding='utf-8',
+    )
+    (sandbox / 'materials' / 'formulario-matematicas-y-fisica.txt').write_text(
+        '========================================================================\n'
+        'FORMULARIO INTEGRAL DE MATEMÁTICAS Y FÍSICA - EDUCATIA\n'
+        '========================================================================\n\n'
+        'ÁLGEBRA Y GEOMETRÍA ANALÍTICA:\n'
+        '  - Ecuación cuadrática: x = (-b ± √(b² - 4ac)) / (2a)\n'
+        '  - Distancia entre dos puntos: d = √((x₂ - x₁)² + (y₂ - y₁)¹)\n'
+        '  - Pendiente de una recta: m = (y₂ - y₁) / (x₂ - x₁)\n'
+        '  - Ecuación punto-pendiente: y - y₁ = m(x - x₁)\n'
+        '  - Circunferencia: (x - h)² + (y - k)² = r²\n\n'
+        'CÁLCULO DIFERENCIAL:\n'
+        '  - Derivada de potencia: d/dx(xⁿ) = n·xⁿ⁻¹\n'
+        '  - Regla del producto: (u·v)\' = u\'v + uv\'\n'
+        '  - Regla del cociente: (u/v)\' = (u\'v - uv\') / v²\n'
+        '  - Regla de la cadena: d/dx(f(g(x))) = f\'(g(x))·g\'(x)\n\n'
+        'FÍSICA CLÁSICA:\n'
+        '  - MRUV: v_f = v_0 + a·t  |  d = v_0·t + (1/2)·a·t²  |  v_f² = v_0² + 2a·d\n'
+        '  - 2da Ley de Newton: F_neta = m·a\n'
+        '  - Trabajo mecánico: W = F · d · cos(θ)\n'
+        '  - Energía cinética: Ec = (1/2)·m·v²\n'
+        '  - Energía potencial: Ep = m·g·h\n'
+        '  - Ley de Ohm: V = I · R\n',
+        encoding='utf-8',
+    )
+    (sandbox / 'materials' / 'banco-preguntas-premedicina.txt').write_text(
+        '========================================================================\n'
+        'BANCO DE REACTIVOS TIPO CASO CLÍNICO - MÓDULO PREMEDICINA\n'
+        '========================================================================\n\n'
+        'CASO 1: FISIOLOGÍA RESPIRATORIA Y EQUILIBRIO ÁCIDO-BASE\n'
+        'Paciente femenino de 24 años ingresa a urgencias con cuadro de crisis de ansiedad,\n'
+        'taquipnea de 32 respiraciones por minuto y parestesias distales.\n'
+        'Gasometría arterial: pH 7.52, PaCO2 25 mmHg, HCO3 22 mEq/L.\n'
+        'Diagnóstico fisiopatológico: Alcalosis respiratoria no compensada por hiperventilación.\n\n'
+        'CASO 2: CARDIOVASCULAR Y CICLO CARDÍACO\n'
+        '¿En qué fase del ciclo cardíaco se produce el cierre de las válvulas auriculoventriculares?\n'
+        'Respuesta correcta: Al inicio de la contracción isovolumétrica ventricular (Primer ruido cardíaco S1).\n\n'
+        'CASO 3: BIOQUÍMICA Y METABOLISMO ENERGÉTICO\n'
+        'En un paciente en ayuno prolongado de 48 horas, ¿cuál es la principal vía hepática activa\n'
+        'para el suministro de glucosa al sistema nervioso central?\n'
+        'Respuesta correcta: Gluconeogénesis a partir de sustratos como glicerol, lactato y aminoácidos.\n',
+        encoding='utf-8',
+    )
+    (sandbox / 'materials' / 'temario-sistemas-ia.txt').write_text(
+        '========================================================================\n'
+        'TEMARIO OFICIAL - SISTEMAS DE INTELIGENCIA ARTIFICIAL & RAG (2026)\n'
+        '========================================================================\n\n'
+        'MÓDULO 1: Fundamentos de Modelos de Lenguaje y Embeddings\n'
+        '  - Tokenización, espacios vectoriales y similitud coseno.\n'
+        '  - Arquitectura Transformer (Atención multicabezal, capas feed-forward).\n\n'
+        'MÓDULO 2: Arquitecturas RAG (Retrieval-Augmented Generation)\n'
+        '  - Estrategias de chunking semántico y particionamiento de documentos.\n'
+        '  - Bases de datos vectoriales (Chroma, Qdrant, Milvus, pgvector).\n'
+        '  - Reranking con cross-encoders y contextual compression.\n\n'
+        'MÓDULO 3: Agentes Autónomos y Tool Calling\n'
+        '  - Patrones ReAct, Tool Calling y orquestación con grafos de ejecución.\n'
+        '  - Guardrails de seguridad perimetral y mitigación de prompt injection.\n',
+        encoding='utf-8',
+    )
+    (sandbox / 'materials' / 'calendario-convocatoria-2026.txt').write_text(
+        '========================================================================\n'
+        'CALENDARIO GENERAL DE CONVOCATORIAS UNIVERSITARIAS 2026\n'
+        '========================================================================\n\n'
+        '- Enero: Publicación de convocatorias generales (UNAM, UAM, IPN, UDG, UANL).\n'
+        '- Febrero - Marzo: Registro en línea de aspirantes y pago de derechos.\n'
+        '- Abril - Mayo: Aplicación presencial y virtual de exámenes EXANI-II y propios.\n'
+        '- Junio - Julio: Publicación de resultados oficiales y trámite de inscripción.\n'
+        '- Agosto: Inicio oficial del ciclo escolar 2026-2027.\n',
         encoding='utf-8',
     )
     (sandbox / 'keys' / 'jwt-primary-2026').write_text(PRIMARY_JWT_SECRET, encoding='utf-8')

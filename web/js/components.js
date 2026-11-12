@@ -574,9 +574,11 @@ window.EducatIA.Components = (function () {
         const studentSimulacrosActive = (currentHash.startsWith('/simulacros') || currentHash.startsWith('/simuladores-exani')) && !studentExamPracticeActive;
         const studentPracticeActive = studentExamPracticeActive || studentSimulacrosActive;
         const studentLabActive = currentHash.startsWith('/laboratorio-aprendizaje');
+        const studentCommunityActive = currentHash.startsWith('/comunidad');
+        const studentSupportActive = currentHash.startsWith('/soporte');
         const pricingActive = currentHash.startsWith('/precios') || currentHash.startsWith('/pricing');
         const isStaffRole = userState.role === 'soporte' || userState.role === 'mantenimiento';
-        const isStudentShell = userState.loggedIn && (userState.role === 'alumno' || isStaffRole || (isAdmin && (studentLearningActive || studentExploreActive || studentGradesActive || studentPracticeActive || studentLabActive)));
+        const isStudentShell = userState.loggedIn && (userState.role === 'alumno' || isStaffRole || (isAdmin && (studentLearningActive || studentExploreActive || studentGradesActive || studentPracticeActive || studentLabActive || studentCommunityActive || studentSupportActive)));
         const profileRoleLabel = userState.role === 'admin' ? 'Administrador' : userState.role === 'maestro' ? 'Docente' : userState.role === 'soporte' ? 'Soporte' : userState.role === 'mantenimiento' ? 'Mantenimiento' : 'Alumno';
         const exaniDropdownGroups = [
             {
@@ -813,6 +815,8 @@ window.EducatIA.Components = (function () {
                                 <a href="${appUrl('/simuladores-exani')}" class="site-nav__student-link ${studentSimulacrosActive ? 'active' : ''}">Simulacros</a>
                                 <a href="#/laboratorio-aprendizaje" class="site-nav__student-link ${studentLabActive ? 'active' : ''}">Laboratorio</a>
                                 <a href="#/calificaciones" class="site-nav__student-link ${studentGradesActive ? 'active' : ''}">Calificaciones</a>
+                                <a href="#/comunidad" class="site-nav__student-link ${studentCommunityActive ? 'active' : ''}">Comunidad</a>
+                                <a href="#/soporte" class="site-nav__student-link ${studentSupportActive ? 'active' : ''}">Soporte</a>
                             </nav>
                         </div>
 
@@ -845,6 +849,14 @@ window.EducatIA.Components = (function () {
                                     <a href="#/perfil" class="site-nav__profile-link" role="menuitem">
                                         ${Icons.user}
                                         <span>Mi perfil</span>
+                                    </a>
+                                    <a href="#/comunidad" class="site-nav__profile-link" role="menuitem">
+                                        ${Icons.users}
+                                        <span>Comunidad</span>
+                                    </a>
+                                    <a href="#/soporte" class="site-nav__profile-link" role="menuitem">
+                                        ${Icons.mail}
+                                        <span>Mesa de soporte</span>
                                     </a>
                                     <a href="#/compras" class="site-nav__profile-link" role="menuitem">
                                         ${Icons.grid}
@@ -882,6 +894,8 @@ window.EducatIA.Components = (function () {
                                     { href: appUrl('/simuladores-exani'), label: 'Simulacros', active: studentSimulacrosActive },
                                     { href: '#/laboratorio-aprendizaje', label: 'Laboratorio', active: studentLabActive },
                                     { href: '#/calificaciones', label: 'Calificaciones', active: studentGradesActive },
+                                    { href: '#/comunidad', label: 'Comunidad', active: studentCommunityActive },
+                                    { href: '#/soporte', label: 'Mesa de soporte', active: studentSupportActive },
                                 ],
                             },
                             {
@@ -940,6 +954,8 @@ window.EducatIA.Components = (function () {
                                 </nav>
                             </div>
                             <button type="button" class="site-nav__explorer-toggle" id="explorar-toggle" aria-expanded="false" aria-controls="explorar-dropdown">Explorar</button>
+                            <a href="#/comunidad" class="site-nav__public-link ${studentCommunityActive ? 'active' : ''}">Comunidad</a>
+                            <a href="#/soporte" class="site-nav__public-link ${studentSupportActive ? 'active' : ''}">Soporte</a>
                             <a href="#/precios" class="site-nav__public-link ${pricingActive ? 'active' : ''}">Costos</a>
                         </div>
 

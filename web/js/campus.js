@@ -146,6 +146,23 @@
                                 </dl>
                             ` : '<p class="text-muted" style="margin-top:10px">Selecciona un folio para consultar su historial.</p>'}
                         </section>
+                        <section class="card">
+                            <h2>Preguntas Frecuentes Rápidas</h2>
+                            <dl style="display:grid;gap:12px;margin-top:14px;font-size:.9rem">
+                                <div>
+                                    <dt><strong>¿Dónde descargo mis constancias verificables?</strong></dt>
+                                    <dd class="text-muted">Desde la sección <a href="${url('/certificados')}">Mis Certificados</a> al aprobar el 80% o más en tus evaluaciones.</dd>
+                                </div>
+                                <div>
+                                    <dt><strong>¿Cómo activo cupones de convenio escolar?</strong></dt>
+                                    <dd class="text-muted">Ingresa el código institucional al confirmar tu plan en la pantalla de inscripción académica.</dd>
+                                </div>
+                                <div>
+                                    <dt><strong>¿Los simulacros tienen límite de intentos?</strong></dt>
+                                    <dd class="text-muted">Los planes Plus, Pro y Elite tienen intentos ilimitados con banco dinámico adaptativo.</dd>
+                                </div>
+                            </dl>
+                        </section>
                     </aside>
                 </div>`;
             } else {
@@ -181,10 +198,15 @@
                             <button class="btn btn--out" data-campus-tab="directorio">Explorar directorio</button>
                         </section>
                         <section class="card">
-                            <h2>Materiales y guías</h2>
-                            <p class="text-muted" style="margin:12px 0 16px">Descarga la guía oficial de bienvenida y planes académicos.</p>
+                            <h2>Materiales y guías de estudio</h2>
+                            <p class="text-muted" style="margin:12px 0 16px">Descarga guías oficiales, formularios y bancos de reactivos 2026.</p>
                             <div class="campus-row" style="flex-wrap:wrap;gap:8px">
                                 <button class="btn btn--out btn--sm" data-campus-material="bienvenida.txt">Bienvenida (.txt)</button>
+                                <button class="btn btn--out btn--sm" data-campus-material="guia-estudio-exani-ii-2026.txt">Guía EXANI-II (.txt)</button>
+                                <button class="btn btn--out btn--sm" data-campus-material="formulario-matematicas-y-fisica.txt">Formulario Mate/Física (.txt)</button>
+                                <button class="btn btn--out btn--sm" data-campus-material="banco-preguntas-premedicina.txt">Banco Premedicina (.txt)</button>
+                                <button class="btn btn--out btn--sm" data-campus-material="temario-sistemas-ia.txt">Temario IA (.txt)</button>
+                                <button class="btn btn--out btn--sm" data-campus-material="calendario-convocatoria-2026.txt">Calendario 2026 (.txt)</button>
                                 <button class="btn btn--out btn--sm" data-campus-material="guia-planes-vip.txt">Guía VIP (.txt)</button>
                             </div>
                         </section>
@@ -207,6 +229,15 @@
                     <div class="page-hd">
                         <h1>Comunidad EducatIA</h1>
                         <p>Ecosistema académico colaborativo, directorio institucional y mesa de soporte.</p>
+                    </div>
+                    <div class="campus-live-ticker" style="display:flex;align-items:center;gap:16px;padding:12px 18px;background:rgba(22,101,52,0.08);border:1px solid rgba(34,197,94,0.3);border-radius:12px;margin-bottom:20px;font-size:0.92rem;color:#14532d;flex-wrap:wrap;">
+                        <span style="display:inline-flex;align-items:center;gap:6px;font-weight:600"><span style="display:inline-block;width:8px;height:8px;background:#22c55e;border-radius:50%;box-shadow:0 0 6px #22c55e"></span> En vivo: 418 estudiantes activos</span>
+                        <span>·</span>
+                        <span>1,850 reactivos resueltos hoy</span>
+                        <span>·</span>
+                        <span>12 cohortes institucionales activas</span>
+                        <span>·</span>
+                        <span>Soporte promedio: &lt; 25 min</span>
                     </div>
                     <div class="tabs">
                         <button class="tab ${state.tab === 'conversaciones' ? 'tab--on' : ''}" data-campus-tab="conversaciones">Conversaciones</button>

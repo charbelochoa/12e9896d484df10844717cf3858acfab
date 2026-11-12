@@ -384,6 +384,39 @@ window.EducatIA.Pages.Info = (function () {
         `
     };
 
+    pages.contacto = {
+        title: 'Contacto y Atención Institucional',
+        lead: 'Canales oficiales de comunicación, soporte técnico, vinculación y atención a aspirantes.',
+        body: `
+            <h2>Atención a Estudiantes y Aspirantes</h2>
+            <p>Si tienes dudas sobre tu inscripción, simuladores o el uso de la plataforma, nuestro equipo de soporte está disponible todos los días para apoyarte.</p>
+            <ul>
+                <li><strong>Mesa de soporte general:</strong> <a href="mailto:${MAIL_SOPORTE}">${MAIL_SOPORTE}</a></li>
+                <li><strong>Mesa de ayuda en vivo:</strong> pestaña <a href="#/soporte">Soporte y Tickets</a> dentro del campus.</li>
+                <li><strong>Horario de atención:</strong> Lunes a Viernes de 8:00 a 20:00 hrs · Sábados de 9:00 a 14:00 hrs (Hora del Centro de México).</li>
+            </ul>
+
+            <h2>Convenios Escolares e Instituciones</h2>
+            <p>Para escuelas preparatorias, bachilleratos y universidades interesadas en licencias institucionales VIP o programas de diagnóstico grupal:</p>
+            <ul>
+                <li><strong>Coordinación de vinculación:</strong> <a href="mailto:${MAIL_VINCULACION}">${MAIL_VINCULACION}</a></li>
+                <li><strong>Atención convenios VIP:</strong> <a href="mailto:convenios@educatia.test">convenios@educatia.test</a></li>
+            </ul>
+
+            <h2>Privacidad y Asuntos Legales</h2>
+            <ul>
+                <li><strong>Protección de datos (ARCO):</strong> <a href="mailto:${MAIL_PRIVACIDAD}">${MAIL_PRIVACIDAD}</a></li>
+                <li><strong>Representación jurídica:</strong> <a href="mailto:${MAIL_LEGAL}">${MAIL_LEGAL}</a></li>
+            </ul>
+
+            <h2>Sede y Campus Virtual</h2>
+            <p>Campus digital EducatIA · Servidores en nodo gcp-us-west1-b con redundancia perimetral y soporte nacional en las 32 entidades federativas de México.</p>
+        `
+    };
+
+    pages['oferta-academica'] = pages.oferta;
+    pages['proyecto-educatia'] = pages.proyecto;
+
     function render(params) {
         var topic = params && params.topic ? params.topic : '';
         if (topic === 'formacion-ia') return window.EducatIA.ProgramCatalog.render();
@@ -391,7 +424,31 @@ window.EducatIA.Pages.Info = (function () {
         var app = document.getElementById('app');
 
         if (!page) {
-            app.innerHTML = '<div class="info-page"><div class="info-page__breadcrumb"><a href="#/">Inicio</a> / No encontrada</div><h1>Página no encontrada</h1><p>La sección solicitada no existe. <a href="#/">Volver al inicio</a>.</p></div>';
+            app.innerHTML =
+                '<div class="info-page">' +
+                    '<div class="info-page__breadcrumb"><a href="#/">Inicio</a> / Directorio Institucional</div>' +
+                    '<h1>Centro de Información y Documentación</h1>' +
+                    '<p class="info-page__lead">Explora las guías, políticas oficiales, oferta académica y canales de atención de EducatIA.</p>' +
+                    '<div class="info-page__body">' +
+                        '<h2>Secciones disponibles</h2>' +
+                        '<ul>' +
+                            '<li><a href="#/info/oferta-academica"><strong>Oferta Académica:</strong> Cursos, simuladores y laboratorios</a></li>' +
+                            '<li><a href="#/info/formacion-ia"><strong>Formación en Inteligencia Artificial:</strong> Programas aplicados</a></li>' +
+                            '<li><a href="#/info/proyecto"><strong>Proyecto EducatIA:</strong> Misión, modelo y preparación EXANI</a></li>' +
+                            '<li><a href="#/info/ayuda"><strong>Centro de Ayuda:</strong> Preguntas frecuentes y resolución de dudas</a></li>' +
+                            '<li><a href="#/info/contacto"><strong>Contacto:</strong> Canales de soporte y vinculación escolar</a></li>' +
+                            '<li><a href="#/info/accesibilidad"><strong>Accesibilidad:</strong> Compromiso WCAG 2.1 AA</a></li>' +
+                            '<li><a href="#/info/privacidad"><strong>Aviso de Privacidad:</strong> Protección y tratamiento de datos</a></li>' +
+                            '<li><a href="#/info/terminos"><strong>Términos de Uso:</strong> Condiciones de servicio y planes</a></li>' +
+                            '<li><a href="#/info/cookies"><strong>Política de Cookies:</strong> Almacenamiento seguro</a></li>' +
+                            '<li><a href="#/info/legal"><strong>Aviso Legal:</strong> Marco normativo institucional</a></li>' +
+                        '</ul>' +
+                    '</div>' +
+                    '<div class="info-page__cta">' +
+                        '<a href="#/" class="btn--blue">Volver al inicio</a>' +
+                        '<a href="#/explorar" class="btn--blue" style="background:#333">Explorar cursos</a>' +
+                    '</div>' +
+                '</div>';
             return;
         }
 

@@ -25,12 +25,15 @@ ROUTES = (
     'dashboard', 'dashboard-maestro', 'explorar', 'login', 'registro-alumno',
     'perfil', 'comunidad', 'soporte', 'configuracion', 'personalizacion',
     'onboarding', 'diagnostico', 'simulacros', 'simuladores-exani',
-    'certificados', 'calificaciones', 'notificaciones', 'precios', 'pricing',
-    'checkout', 'compras', 'tareas', 'administracion', 'articulos-ia',
+    'simuladores-exani/examen-real', 'simuladores-exani/racha-diaria',
+    'simuladores-exani/practica-por-modulos', 'certificados', 'calificaciones',
+    'notificaciones', 'precios', 'pricing', 'checkout', 'compras', 'tareas',
+    'tareas/revision', 'verificar', 'administracion', 'articulos-ia',
     'laboratorio-aprendizaje', 'examenes-practica', 'recuperar-contrasena',
     'restablecer-contrasena', 'confirmar-correo', 'info/proyecto',
-    'info/oferta-academica', 'info/formacion-ia', 'info/contacto',
-    'info/privacidad', 'info/terminos',
+    'info/oferta-academica', 'info/oferta', 'info/formacion-ia', 'info/contacto',
+    'info/privacidad', 'info/terminos', 'info/cookies', 'info/legal',
+    'info/ayuda', 'info/accesibilidad', 'info/vinculacion',
 )
 
 
