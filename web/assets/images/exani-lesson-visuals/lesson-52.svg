@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Filosofía - Bioética, tecnología y problemas contemporáneos">
+  <rect width="1200" height="560" fill="#f5f3ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#ddd6fe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#7c3aed" opacity="0.16"/>
+  <line x1="1018" y1="222" x2="1062" y2="326" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="829" y1="269" x2="859" y2="387" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="900" y1="316" x2="926" y2="218" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="971" y1="363" x2="993" y2="279" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1042" y1="190" x2="1060" y2="340" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="853" y1="237" x2="857" y2="171" stroke="#7c3aed" stroke-width="2" opacity="0.18"/>
+  <circle cx="924" cy="286" r="6" fill="#7c3aed" opacity="0.18"/><circle cx="1007" cy="345" r="7" fill="#7c3aed" opacity="0.26"/><circle cx="1090" cy="144" r="8" fill="#7c3aed" opacity="0.34"/><circle cx="873" cy="203" r="9" fill="#7c3aed" opacity="0.42"/><circle cx="956" cy="262" r="10" fill="#7c3aed" opacity="0.18"/><circle cx="1039" cy="321" r="11" fill="#7c3aed" opacity="0.26"/><circle cx="822" cy="380" r="12" fill="#7c3aed" opacity="0.34"/><circle cx="905" cy="179" r="13" fill="#7c3aed" opacity="0.42"/><circle cx="988" cy="238" r="4" fill="#7c3aed" opacity="0.18"/><circle cx="1071" cy="297" r="5" fill="#7c3aed" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="420" width="182" height="10" rx="5" fill="#7c3aed"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="448" width="264" height="10" rx="5" fill="#7c3aed" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#7c3aed" letter-spacing="2">FILOSOFÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Bioética, tecnología y problemas</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">contemporáneos</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#7c3aed">Leccion 01</text>
+</svg>

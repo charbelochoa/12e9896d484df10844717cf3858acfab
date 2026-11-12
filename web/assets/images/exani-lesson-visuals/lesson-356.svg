@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Matemáticas financieras - Interés simple - bloque 3">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="994" y1="186" x2="836" y2="288" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1065" y1="233" x2="903" y2="349" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="876" y1="280" x2="970" y2="180" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="947" y1="327" x2="1037" y2="241" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1018" y1="154" x2="834" y2="302" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="829" y1="201" x2="901" y2="363" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="1072" cy="278" r="10" fill="#ea580c" opacity="0.18"/><circle cx="855" cy="337" r="11" fill="#ea580c" opacity="0.26"/><circle cx="938" cy="136" r="12" fill="#ea580c" opacity="0.34"/><circle cx="1021" cy="195" r="13" fill="#ea580c" opacity="0.42"/><circle cx="804" cy="254" r="4" fill="#ea580c" opacity="0.18"/><circle cx="887" cy="313" r="5" fill="#ea580c" opacity="0.26"/><circle cx="970" cy="372" r="6" fill="#ea580c" opacity="0.34"/><circle cx="1053" cy="171" r="7" fill="#ea580c" opacity="0.42"/><circle cx="836" cy="230" r="8" fill="#ea580c" opacity="0.18"/><circle cx="919" cy="289" r="9" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="286" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="432" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">MATEMÁTICAS FINANCIERAS</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Interés simple - bloque 3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 20</text>
+</svg>

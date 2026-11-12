@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Derecho - Derecho laboral y seguridad social - bloque 2">
+  <rect width="1200" height="560" fill="#f5f3ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#ddd6fe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#7c3aed" opacity="0.16"/>
+  <line x1="894" y1="346" x2="906" y2="328" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="965" y1="173" x2="973" y2="389" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1036" y1="220" x2="1040" y2="220" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="847" y1="267" x2="837" y2="281" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="918" y1="314" x2="904" y2="342" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="989" y1="361" x2="971" y2="173" stroke="#7c3aed" stroke-width="2" opacity="0.18"/>
+  <circle cx="852" cy="158" r="10" fill="#7c3aed" opacity="0.18"/><circle cx="935" cy="217" r="11" fill="#7c3aed" opacity="0.26"/><circle cx="1018" cy="276" r="12" fill="#7c3aed" opacity="0.34"/><circle cx="801" cy="335" r="13" fill="#7c3aed" opacity="0.42"/><circle cx="884" cy="134" r="4" fill="#7c3aed" opacity="0.18"/><circle cx="967" cy="193" r="5" fill="#7c3aed" opacity="0.26"/><circle cx="1050" cy="252" r="6" fill="#7c3aed" opacity="0.34"/><circle cx="833" cy="311" r="7" fill="#7c3aed" opacity="0.42"/><circle cx="916" cy="370" r="8" fill="#7c3aed" opacity="0.18"/><circle cx="999" cy="169" r="9" fill="#7c3aed" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="420" width="226" height="10" rx="5" fill="#7c3aed"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="448" width="292" height="10" rx="5" fill="#7c3aed" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#7c3aed" letter-spacing="2">DERECHO</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Derecho laboral y seguridad social</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">- bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#7c3aed">Leccion 49</text>
+</svg>

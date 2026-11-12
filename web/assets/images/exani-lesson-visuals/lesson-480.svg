@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Ciencias experimentales - Evolución, biodiversidad y ambiente - bloque 2">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="950" y1="290" x2="1060" y2="330" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1021" y1="337" x2="857" y2="161" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="832" y1="164" x2="924" y2="222" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="903" y1="211" x2="991" y2="283" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="974" y1="258" x2="1058" y2="344" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1045" y1="305" x2="855" y2="175" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="860" cy="350" r="4" fill="#ea580c" opacity="0.18"/><circle cx="943" cy="149" r="5" fill="#ea580c" opacity="0.26"/><circle cx="1026" cy="208" r="6" fill="#ea580c" opacity="0.34"/><circle cx="809" cy="267" r="7" fill="#ea580c" opacity="0.42"/><circle cx="892" cy="326" r="8" fill="#ea580c" opacity="0.18"/><circle cx="975" cy="385" r="9" fill="#ea580c" opacity="0.26"/><circle cx="1058" cy="184" r="10" fill="#ea580c" opacity="0.34"/><circle cx="841" cy="243" r="11" fill="#ea580c" opacity="0.42"/><circle cx="924" cy="302" r="12" fill="#ea580c" opacity="0.18"/><circle cx="1007" cy="361" r="13" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="210" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="180" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">CIENCIAS EXPERIMENTALES</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Evolución, biodiversidad y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">ambiente - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 34</text>
+</svg>

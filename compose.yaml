@@ -1,0 +1,53 @@
+services:
+  campus:
+    build: .
+    image: educatia-secure:local
+    ports:
+      - "127.0.0.1:8088:8088"
+    volumes:
+      - secure-data:/srv/educatia/data
+    networks: [campus-net]
+    read_only: true
+    tmpfs: [/tmp:size=32m, noexec, nosuid]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 128
+    mem_limit: 384m
+    cpus: 1.0
+    restart: unless-stopped
+  strict:
+    profiles: [compare]
+    image: educatia-secure:local
+    build: .
+    command:
+      [
+        python,
+        -m,
+        app.server,
+        --host,
+        0.0.0.0,
+        --port,
+        "8088",
+        --data,
+        /srv/educatia/data,
+        --hardened,
+      ]
+    ports:
+      - "127.0.0.1:8090:8088"
+    volumes:
+      - secure-strict-data:/srv/educatia/data
+    networks: [campus-net]
+    read_only: true
+    tmpfs: [/tmp:size=32m, noexec, nosuid]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 128
+    mem_limit: 384m
+    cpus: 1.0
+    restart: unless-stopped
+networks:
+  campus-net:
+    internal: true
+volumes:
+  secure-data:
+  secure-strict-data:

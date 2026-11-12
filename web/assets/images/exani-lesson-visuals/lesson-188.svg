@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Metabolismo celular y energía">
+  <rect width="1200" height="560" fill="#f5f3ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#ddd6fe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#7c3aed" opacity="0.16"/>
+  <line x1="1062" y1="258" x2="968" y2="194" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="873" y1="305" x2="1035" y2="255" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="944" y1="352" x2="832" y2="316" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1015" y1="179" x2="899" y2="377" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="826" y1="226" x2="966" y2="208" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="897" y1="273" x2="1033" y2="269" stroke="#7c3aed" stroke-width="2" opacity="0.18"/>
+  <circle cx="856" cy="214" r="12" fill="#7c3aed" opacity="0.18"/><circle cx="939" cy="273" r="13" fill="#7c3aed" opacity="0.26"/><circle cx="1022" cy="332" r="4" fill="#7c3aed" opacity="0.34"/><circle cx="805" cy="131" r="5" fill="#7c3aed" opacity="0.42"/><circle cx="888" cy="190" r="6" fill="#7c3aed" opacity="0.18"/><circle cx="971" cy="249" r="7" fill="#7c3aed" opacity="0.26"/><circle cx="1054" cy="308" r="8" fill="#7c3aed" opacity="0.34"/><circle cx="837" cy="367" r="9" fill="#7c3aed" opacity="0.42"/><circle cx="920" cy="166" r="10" fill="#7c3aed" opacity="0.18"/><circle cx="1003" cy="225" r="11" fill="#7c3aed" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="420" width="318" height="10" rx="5" fill="#7c3aed"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="448" width="376" height="10" rx="5" fill="#7c3aed" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#7c3aed" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Metabolismo celular y energía</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#7c3aed">Leccion 09</text>
+</svg>

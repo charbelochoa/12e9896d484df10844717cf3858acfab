@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Química - Enlace químico y nomenclatura">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#cbd5e1" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#475569" opacity="0.16"/>
+  <line x1="880" y1="260" x2="1010" y2="290" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="951" y1="307" x2="1077" y2="351" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1022" y1="354" x2="874" y2="182" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="833" y1="181" x2="941" y2="243" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="904" y1="228" x2="1008" y2="304" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="975" y1="275" x2="1075" y2="365" stroke="#475569" stroke-width="2" opacity="0.18"/>
+  <circle cx="970" cy="240" r="4" fill="#475569" opacity="0.18"/><circle cx="1053" cy="299" r="5" fill="#475569" opacity="0.26"/><circle cx="836" cy="358" r="6" fill="#475569" opacity="0.34"/><circle cx="919" cy="157" r="7" fill="#475569" opacity="0.42"/><circle cx="1002" cy="216" r="8" fill="#475569" opacity="0.18"/><circle cx="1085" cy="275" r="9" fill="#475569" opacity="0.26"/><circle cx="868" cy="334" r="10" fill="#475569" opacity="0.34"/><circle cx="951" cy="133" r="11" fill="#475569" opacity="0.42"/><circle cx="1034" cy="192" r="12" fill="#475569" opacity="0.18"/><circle cx="817" cy="251" r="13" fill="#475569" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="420" width="240" height="10" rx="5" fill="#475569"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="448" width="390" height="10" rx="5" fill="#475569" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#475569" letter-spacing="2">QUÍMICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Enlace químico y nomenclatura</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#475569">Leccion 04</text>
+</svg>

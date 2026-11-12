@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Genética mendeliana - bloque 2">
+  <rect width="1200" height="560" fill="#f5f3ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#ddd6fe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#7c3aed" opacity="0.16"/>
+  <line x1="976" y1="224" x2="944" y2="222" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1047" y1="271" x2="1011" y2="283" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="858" y1="318" x2="1078" y2="344" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="929" y1="365" x2="875" y2="175" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1000" y1="192" x2="942" y2="236" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="811" y1="239" x2="1009" y2="297" stroke="#7c3aed" stroke-width="2" opacity="0.18"/>
+  <circle cx="1078" cy="272" r="8" fill="#7c3aed" opacity="0.18"/><circle cx="861" cy="331" r="9" fill="#7c3aed" opacity="0.26"/><circle cx="944" cy="130" r="10" fill="#7c3aed" opacity="0.34"/><circle cx="1027" cy="189" r="11" fill="#7c3aed" opacity="0.42"/><circle cx="810" cy="248" r="12" fill="#7c3aed" opacity="0.18"/><circle cx="893" cy="307" r="13" fill="#7c3aed" opacity="0.26"/><circle cx="976" cy="366" r="4" fill="#7c3aed" opacity="0.34"/><circle cx="1059" cy="165" r="5" fill="#7c3aed" opacity="0.42"/><circle cx="842" cy="224" r="6" fill="#7c3aed" opacity="0.18"/><circle cx="925" cy="283" r="7" fill="#7c3aed" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="420" width="324" height="10" rx="5" fill="#7c3aed"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="448" width="418" height="10" rx="5" fill="#7c3aed" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#7c3aed" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Genética mendeliana - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#7c3aed">Leccion 15</text>
+</svg>

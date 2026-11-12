@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-label="Mapa visual de Literatura">
+  <rect width="960" height="480" rx="28" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="424" rx="24" fill="#ffffff" stroke="#dbeafe"/>
+  <g transform="translate(360 58) scale(0.86)">
+
+        <path d="M128 118h170c38 0 62 24 62 62v168c0-34-24-58-62-58H128zM360 180c0-38 24-62 62-62h110v172H422c-38 0-62 24-62 58z" fill="#be123c" opacity="0.12" stroke="#be123c" stroke-width="6"/>
+        <path d="M170 170h124M170 214h110M410 170h82M410 214h72" stroke="#be123c" stroke-width="7" stroke-linecap="round" opacity="0.18"/>
+  </g>
+  <text x="64" y="100" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#be123c" letter-spacing="1.5">MAPA VISUAL</text>
+  <text x="64" y="166" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="900" fill="#0f172a">Literatura</text>
+  <text x="64" y="220" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" fill="#64748b">Ubica conceptos, relaciones y pasos antes de resolver.</text>
+  <path d="M64 302h260M64 338h210M64 374h300" stroke="#be123c" stroke-width="10" stroke-linecap="round" opacity="0.15"/>
+</svg>

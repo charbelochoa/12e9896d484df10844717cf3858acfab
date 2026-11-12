@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Economía - Estructuras de mercado - bloque 3">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#cbd5e1" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#475569" opacity="0.16"/>
+  <line x1="871" y1="309" x2="1059" y2="167" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="942" y1="356" x2="856" y2="228" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1013" y1="183" x2="923" y2="289" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="824" y1="230" x2="990" y2="350" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="895" y1="277" x2="1057" y2="181" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="966" y1="324" x2="854" y2="242" stroke="#475569" stroke-width="2" opacity="0.18"/>
+  <circle cx="993" cy="367" r="13" fill="#475569" opacity="0.18"/><circle cx="1076" cy="166" r="4" fill="#475569" opacity="0.26"/><circle cx="859" cy="225" r="5" fill="#475569" opacity="0.34"/><circle cx="942" cy="284" r="6" fill="#475569" opacity="0.42"/><circle cx="1025" cy="343" r="7" fill="#475569" opacity="0.18"/><circle cx="808" cy="142" r="8" fill="#475569" opacity="0.26"/><circle cx="891" cy="201" r="9" fill="#475569" opacity="0.34"/><circle cx="974" cy="260" r="10" fill="#475569" opacity="0.42"/><circle cx="1057" cy="319" r="11" fill="#475569" opacity="0.18"/><circle cx="840" cy="378" r="12" fill="#475569" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="420" width="219" height="10" rx="5" fill="#475569"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="448" width="243" height="10" rx="5" fill="#475569" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#475569" letter-spacing="2">ECONOMÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Estructuras de mercado - bloque 3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#475569">Leccion 35</text>
+</svg>

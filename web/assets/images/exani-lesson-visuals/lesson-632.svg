@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Psicología - Memoria, pensamiento, lenguaje e inteligencia">
+  <rect width="1200" height="560" fill="#ecfeff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#a5f3fc" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#0891b2" opacity="0.16"/>
+  <line x1="938" y1="162" x2="1082" y2="196" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1009" y1="209" x2="879" y2="257" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="820" y1="256" x2="946" y2="318" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="891" y1="303" x2="1013" y2="379" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="962" y1="350" x2="1080" y2="210" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1033" y1="177" x2="877" y2="271" stroke="#0891b2" stroke-width="2" opacity="0.18"/>
+  <circle cx="1084" cy="346" r="6" fill="#0891b2" opacity="0.18"/><circle cx="867" cy="145" r="7" fill="#0891b2" opacity="0.26"/><circle cx="950" cy="204" r="8" fill="#0891b2" opacity="0.34"/><circle cx="1033" cy="263" r="9" fill="#0891b2" opacity="0.42"/><circle cx="816" cy="322" r="10" fill="#0891b2" opacity="0.18"/><circle cx="899" cy="381" r="11" fill="#0891b2" opacity="0.26"/><circle cx="982" cy="180" r="12" fill="#0891b2" opacity="0.34"/><circle cx="1065" cy="239" r="13" fill="#0891b2" opacity="0.42"/><circle cx="848" cy="298" r="4" fill="#0891b2" opacity="0.18"/><circle cx="931" cy="357" r="5" fill="#0891b2" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="420" width="162" height="10" rx="5" fill="#0891b2"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="448" width="404" height="10" rx="5" fill="#0891b2" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#0891b2" letter-spacing="2">PSICOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Memoria, pensamiento, lenguaje e</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">inteligencia</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#0891b2">Leccion 06</text>
+</svg>

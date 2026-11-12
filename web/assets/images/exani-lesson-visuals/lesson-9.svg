@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Administración - Introducción a la administración - bloque 1">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="811" y1="209" x2="919" y2="317" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="882" y1="256" x2="986" y2="378" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="953" y1="303" x2="1053" y2="209" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1024" y1="350" x2="850" y2="270" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="835" y1="177" x2="917" y2="331" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="906" y1="224" x2="984" y2="162" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="833" cy="347" r="13" fill="#ea580c" opacity="0.18"/><circle cx="916" cy="146" r="4" fill="#ea580c" opacity="0.26"/><circle cx="999" cy="205" r="5" fill="#ea580c" opacity="0.34"/><circle cx="1082" cy="264" r="6" fill="#ea580c" opacity="0.42"/><circle cx="865" cy="323" r="7" fill="#ea580c" opacity="0.18"/><circle cx="948" cy="382" r="8" fill="#ea580c" opacity="0.26"/><circle cx="1031" cy="181" r="9" fill="#ea580c" opacity="0.34"/><circle cx="814" cy="240" r="10" fill="#ea580c" opacity="0.42"/><circle cx="897" cy="299" r="11" fill="#ea580c" opacity="0.18"/><circle cx="980" cy="358" r="12" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="139" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="243" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">ADMINISTRACIÓN</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Introducción a la administración -</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 01</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Reino fungi">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#cbd5e1" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#475569" opacity="0.16"/>
+  <line x1="918" y1="302" x2="992" y2="276" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="989" y1="349" x2="1059" y2="337" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1060" y1="176" x2="856" y2="168" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="871" y1="223" x2="923" y2="229" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="942" y1="270" x2="990" y2="290" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1013" y1="317" x2="1057" y2="351" stroke="#475569" stroke-width="2" opacity="0.18"/>
+  <circle cx="1024" cy="166" r="6" fill="#475569" opacity="0.18"/><circle cx="807" cy="225" r="7" fill="#475569" opacity="0.26"/><circle cx="890" cy="284" r="8" fill="#475569" opacity="0.34"/><circle cx="973" cy="343" r="9" fill="#475569" opacity="0.42"/><circle cx="1056" cy="142" r="10" fill="#475569" opacity="0.18"/><circle cx="839" cy="201" r="11" fill="#475569" opacity="0.26"/><circle cx="922" cy="260" r="12" fill="#475569" opacity="0.34"/><circle cx="1005" cy="319" r="13" fill="#475569" opacity="0.42"/><circle cx="1088" cy="378" r="4" fill="#475569" opacity="0.18"/><circle cx="871" cy="177" r="5" fill="#475569" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="420" width="182" height="10" rx="5" fill="#475569"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="448" width="264" height="10" rx="5" fill="#475569" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#475569" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Reino fungi</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#475569">Leccion 28</text>
+</svg>

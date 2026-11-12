@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Ciencias de la Salud - Sistema nervioso, órganos de los sentidos y sistema endocrino">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="1036" y1="184" x2="954" y2="162" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="847" y1="231" x2="1021" y2="223" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="918" y1="278" x2="1088" y2="284" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="989" y1="325" x2="885" y2="345" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1060" y1="152" x2="952" y2="176" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="871" y1="199" x2="1019" y2="237" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="918" cy="292" r="8" fill="#2563eb" opacity="0.18"/><circle cx="1001" cy="351" r="9" fill="#2563eb" opacity="0.26"/><circle cx="1084" cy="150" r="10" fill="#2563eb" opacity="0.34"/><circle cx="867" cy="209" r="11" fill="#2563eb" opacity="0.42"/><circle cx="950" cy="268" r="12" fill="#2563eb" opacity="0.18"/><circle cx="1033" cy="327" r="13" fill="#2563eb" opacity="0.26"/><circle cx="816" cy="386" r="4" fill="#2563eb" opacity="0.34"/><circle cx="899" cy="185" r="5" fill="#2563eb" opacity="0.42"/><circle cx="982" cy="244" r="6" fill="#2563eb" opacity="0.18"/><circle cx="1065" cy="303" r="7" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="144" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="278" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">CIENCIAS DE LA SALUD</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Sistema nervioso, órganos de los</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">sentidos y sistema endocrino</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 09</text>
+</svg>

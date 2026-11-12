@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Ciencias de la Salud - Terminología médica básica y lenguaje técnico">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="929" y1="231" x2="1011" y2="343" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1000" y1="278" x2="1078" y2="174" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="811" y1="325" x2="875" y2="235" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="882" y1="152" x2="942" y2="296" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="953" y1="199" x2="1009" y2="357" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1024" y1="246" x2="1076" y2="188" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="1047" cy="213" r="5" fill="#ea580c" opacity="0.18"/><circle cx="830" cy="272" r="6" fill="#ea580c" opacity="0.26"/><circle cx="913" cy="331" r="7" fill="#ea580c" opacity="0.34"/><circle cx="996" cy="130" r="8" fill="#ea580c" opacity="0.42"/><circle cx="1079" cy="189" r="9" fill="#ea580c" opacity="0.18"/><circle cx="862" cy="248" r="10" fill="#ea580c" opacity="0.26"/><circle cx="945" cy="307" r="11" fill="#ea580c" opacity="0.34"/><circle cx="1028" cy="366" r="12" fill="#ea580c" opacity="0.42"/><circle cx="811" cy="165" r="13" fill="#ea580c" opacity="0.18"/><circle cx="894" cy="224" r="4" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="161" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="397" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">CIENCIAS DE LA SALUD</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Terminología médica básica y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">lenguaje técnico</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 03</text>
+</svg>

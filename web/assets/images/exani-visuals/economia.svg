@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-label="Mapa visual de Economia">
+  <rect width="960" height="480" rx="28" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="424" rx="24" fill="#ffffff" stroke="#dbeafe"/>
+  <g transform="translate(360 58) scale(0.86)">
+
+        <path d="M134 316h394M164 292l76-78 72 38 112-126 78 56" fill="none" stroke="#047857" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.18"/>
+        <g fill="#facc15"><circle cx="240" cy="214" r="13"/><circle cx="312" cy="252" r="13"/><circle cx="424" cy="126" r="13"/><circle cx="502" cy="182" r="13"/></g>
+  </g>
+  <text x="64" y="100" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#047857" letter-spacing="1.5">MAPA VISUAL</text>
+  <text x="64" y="166" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="900" fill="#0f172a">Economia</text>
+  <text x="64" y="220" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" fill="#64748b">Ubica conceptos, relaciones y pasos antes de resolver.</text>
+  <path d="M64 302h260M64 338h210M64 374h300" stroke="#047857" stroke-width="10" stroke-linecap="round" opacity="0.15"/>
+</svg>

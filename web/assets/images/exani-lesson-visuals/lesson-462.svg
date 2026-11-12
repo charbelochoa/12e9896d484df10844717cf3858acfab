@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Cálculo diferencial e integral - Aplicaciones de la derivada - bloque 3">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="948" y1="172" x2="862" y2="246" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1019" y1="219" x2="929" y2="307" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="830" y1="266" x2="996" y2="368" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="901" y1="313" x2="1063" y2="199" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="972" y1="360" x2="860" y2="260" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1043" y1="187" x2="927" y2="321" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="1094" cy="176" r="6" fill="#16a34a" opacity="0.18"/><circle cx="877" cy="235" r="7" fill="#16a34a" opacity="0.26"/><circle cx="960" cy="294" r="8" fill="#16a34a" opacity="0.34"/><circle cx="1043" cy="353" r="9" fill="#16a34a" opacity="0.42"/><circle cx="826" cy="152" r="10" fill="#16a34a" opacity="0.18"/><circle cx="909" cy="211" r="11" fill="#16a34a" opacity="0.26"/><circle cx="992" cy="270" r="12" fill="#16a34a" opacity="0.34"/><circle cx="1075" cy="329" r="13" fill="#16a34a" opacity="0.42"/><circle cx="858" cy="388" r="4" fill="#16a34a" opacity="0.18"/><circle cx="941" cy="187" r="5" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="192" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="334" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">CÁLCULO DIFERENCIAL E INTEGRAL</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Aplicaciones de la derivada -</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">bloque 3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 21</text>
+</svg>

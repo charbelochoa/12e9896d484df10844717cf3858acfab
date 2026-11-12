@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Premedicina - Biología celular: tipos de célula, organelos y membrana - bloque 1">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="1050" y1="270" x2="850" y2="200" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="861" y1="317" x2="917" y2="261" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="932" y1="364" x2="984" y2="322" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1003" y1="191" x2="1051" y2="383" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="814" y1="238" x2="848" y2="214" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="885" y1="285" x2="915" y2="275" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="800" cy="210" r="4" fill="#16a34a" opacity="0.18"/><circle cx="883" cy="269" r="5" fill="#16a34a" opacity="0.26"/><circle cx="966" cy="328" r="6" fill="#16a34a" opacity="0.34"/><circle cx="1049" cy="387" r="7" fill="#16a34a" opacity="0.42"/><circle cx="832" cy="186" r="8" fill="#16a34a" opacity="0.18"/><circle cx="915" cy="245" r="9" fill="#16a34a" opacity="0.26"/><circle cx="998" cy="304" r="10" fill="#16a34a" opacity="0.34"/><circle cx="1081" cy="363" r="11" fill="#16a34a" opacity="0.42"/><circle cx="864" cy="162" r="12" fill="#16a34a" opacity="0.18"/><circle cx="947" cy="221" r="13" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="130" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="180" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">PREMEDICINA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Biología celular: tipos de célula,</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">organelos y membrana - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 57</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Química - Química orgánica y biomoléculas">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="823" y1="317" x2="1017" y2="181" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="894" y1="364" x2="1084" y2="242" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="965" y1="191" x2="881" y2="303" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1036" y1="238" x2="948" y2="364" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="847" y1="285" x2="1015" y2="195" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="918" y1="332" x2="1082" y2="256" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="969" cy="351" r="11" fill="#ea580c" opacity="0.18"/><circle cx="1052" cy="150" r="12" fill="#ea580c" opacity="0.26"/><circle cx="835" cy="209" r="13" fill="#ea580c" opacity="0.34"/><circle cx="918" cy="268" r="4" fill="#ea580c" opacity="0.42"/><circle cx="1001" cy="327" r="5" fill="#ea580c" opacity="0.18"/><circle cx="1084" cy="386" r="6" fill="#ea580c" opacity="0.26"/><circle cx="867" cy="185" r="7" fill="#ea580c" opacity="0.34"/><circle cx="950" cy="244" r="8" fill="#ea580c" opacity="0.42"/><circle cx="1033" cy="303" r="9" fill="#ea580c" opacity="0.18"/><circle cx="816" cy="362" r="10" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="167" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="439" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">QUÍMICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Química orgánica y biomoléculas</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 09</text>
+</svg>

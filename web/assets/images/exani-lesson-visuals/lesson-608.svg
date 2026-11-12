@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Premedicina - Metabolismo energético: glucólisis, ciclo de krebs y respiración celular - bloque 1">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="1022" y1="298" x2="908" y2="314" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="833" y1="345" x2="975" y2="375" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="904" y1="172" x2="1042" y2="206" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="975" y1="219" x2="839" y2="267" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1046" y1="266" x2="906" y2="328" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="857" y1="313" x2="973" y2="389" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="1096" cy="374" r="12" fill="#2563eb" opacity="0.18"/><circle cx="879" cy="173" r="13" fill="#2563eb" opacity="0.26"/><circle cx="962" cy="232" r="4" fill="#2563eb" opacity="0.34"/><circle cx="1045" cy="291" r="5" fill="#2563eb" opacity="0.42"/><circle cx="828" cy="350" r="6" fill="#2563eb" opacity="0.18"/><circle cx="911" cy="149" r="7" fill="#2563eb" opacity="0.26"/><circle cx="994" cy="208" r="8" fill="#2563eb" opacity="0.34"/><circle cx="1077" cy="267" r="9" fill="#2563eb" opacity="0.42"/><circle cx="860" cy="326" r="10" fill="#2563eb" opacity="0.18"/><circle cx="943" cy="385" r="11" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="138" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="236" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">PREMEDICINA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Metabolismo energético:</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">glucólisis, ciclo de krebs y</text>
+<text x="92" y="320" font-size="52" font-weight="800" fill="#0f172a">respiración celular - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 65</text>
+</svg>

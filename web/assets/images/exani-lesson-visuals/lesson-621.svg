@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Premedicina - Farmacología básica y uso racional de medicamentos - bloque 1">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="879" y1="261" x2="901" y2="183" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="950" y1="308" x2="968" y2="244" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1021" y1="355" x2="1035" y2="305" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="832" y1="182" x2="832" y2="366" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="903" y1="229" x2="899" y2="197" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="974" y1="276" x2="966" y2="258" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="977" cy="283" r="5" fill="#16a34a" opacity="0.18"/><circle cx="1060" cy="342" r="6" fill="#16a34a" opacity="0.26"/><circle cx="843" cy="141" r="7" fill="#16a34a" opacity="0.34"/><circle cx="926" cy="200" r="8" fill="#16a34a" opacity="0.42"/><circle cx="1009" cy="259" r="9" fill="#16a34a" opacity="0.18"/><circle cx="1092" cy="318" r="10" fill="#16a34a" opacity="0.26"/><circle cx="875" cy="377" r="11" fill="#16a34a" opacity="0.34"/><circle cx="958" cy="176" r="12" fill="#16a34a" opacity="0.42"/><circle cx="1041" cy="235" r="13" fill="#16a34a" opacity="0.18"/><circle cx="824" cy="294" r="4" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="151" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="327" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">PREMEDICINA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Farmacología básica y uso racional</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">de medicamentos - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 78</text>
+</svg>

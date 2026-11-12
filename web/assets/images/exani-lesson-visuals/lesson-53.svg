@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Filosofía - Origen, sentido y utilidad de la filosofía - bloque 1">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="1047" y1="253" x2="833" y2="369" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="858" y1="300" x2="900" y2="200" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="929" y1="347" x2="967" y2="261" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1000" y1="174" x2="1034" y2="322" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="811" y1="221" x2="831" y2="383" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="882" y1="268" x2="898" y2="214" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="961" cy="339" r="7" fill="#2563eb" opacity="0.18"/><circle cx="1044" cy="138" r="8" fill="#2563eb" opacity="0.26"/><circle cx="827" cy="197" r="9" fill="#2563eb" opacity="0.34"/><circle cx="910" cy="256" r="10" fill="#2563eb" opacity="0.42"/><circle cx="993" cy="315" r="11" fill="#2563eb" opacity="0.18"/><circle cx="1076" cy="374" r="12" fill="#2563eb" opacity="0.26"/><circle cx="859" cy="173" r="13" fill="#2563eb" opacity="0.34"/><circle cx="942" cy="232" r="4" fill="#2563eb" opacity="0.42"/><circle cx="1025" cy="291" r="5" fill="#2563eb" opacity="0.18"/><circle cx="808" cy="350" r="6" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="183" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="271" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">FILOSOFÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Origen, sentido y utilidad de la</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">filosofía - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 02</text>
+</svg>

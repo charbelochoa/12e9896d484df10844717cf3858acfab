@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Química - Reacciones químicas y balanceo">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="941" y1="279" x2="849" y2="387" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1012" y1="326" x2="916" y2="218" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="823" y1="153" x2="983" y2="279" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="894" y1="200" x2="1050" y2="340" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="965" y1="247" x2="847" y2="171" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1036" y1="294" x2="914" y2="232" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="843" cy="217" r="13" fill="#2563eb" opacity="0.18"/><circle cx="926" cy="276" r="4" fill="#2563eb" opacity="0.26"/><circle cx="1009" cy="335" r="5" fill="#2563eb" opacity="0.34"/><circle cx="1092" cy="134" r="6" fill="#2563eb" opacity="0.42"/><circle cx="875" cy="193" r="7" fill="#2563eb" opacity="0.18"/><circle cx="958" cy="252" r="8" fill="#2563eb" opacity="0.26"/><circle cx="1041" cy="311" r="9" fill="#2563eb" opacity="0.34"/><circle cx="824" cy="370" r="10" fill="#2563eb" opacity="0.42"/><circle cx="907" cy="169" r="11" fill="#2563eb" opacity="0.18"/><circle cx="990" cy="228" r="12" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="269" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="313" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">QUÍMICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Reacciones químicas y balanceo</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 06</text>
+</svg>

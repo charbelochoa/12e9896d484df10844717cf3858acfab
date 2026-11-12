@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Derecho - Clasificación del derecho y ramas principales - bloque 3">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="953" y1="327" x2="957" y2="201" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1024" y1="154" x2="1024" y2="262" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="835" y1="201" x2="821" y2="323" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="906" y1="248" x2="888" y2="384" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="977" y1="295" x2="955" y2="215" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1048" y1="342" x2="1022" y2="276" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="939" cy="221" r="11" fill="#16a34a" opacity="0.18"/><circle cx="1022" cy="280" r="12" fill="#16a34a" opacity="0.26"/><circle cx="805" cy="339" r="13" fill="#16a34a" opacity="0.34"/><circle cx="888" cy="138" r="4" fill="#16a34a" opacity="0.42"/><circle cx="971" cy="197" r="5" fill="#16a34a" opacity="0.18"/><circle cx="1054" cy="256" r="6" fill="#16a34a" opacity="0.26"/><circle cx="837" cy="315" r="7" fill="#16a34a" opacity="0.34"/><circle cx="920" cy="374" r="8" fill="#16a34a" opacity="0.42"/><circle cx="1003" cy="173" r="9" fill="#16a34a" opacity="0.18"/><circle cx="1086" cy="232" r="10" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="177" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="229" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">DERECHO</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Clasificación del derecho y ramas</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">principales - bloque 3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 20</text>
+</svg>

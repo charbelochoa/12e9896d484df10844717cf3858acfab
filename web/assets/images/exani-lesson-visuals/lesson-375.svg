@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Premedicina - Sistema tegumentario y sistema musculoesquelético - bloque 3">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="1025" y1="335" x2="1075" y2="185" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="836" y1="162" x2="872" y2="246" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="907" y1="209" x2="939" y2="307" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="978" y1="256" x2="1006" y2="368" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1049" y1="303" x2="1073" y2="199" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="860" y1="350" x2="870" y2="260" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="875" cy="245" r="9" fill="#16a34a" opacity="0.18"/><circle cx="958" cy="304" r="10" fill="#16a34a" opacity="0.26"/><circle cx="1041" cy="363" r="11" fill="#16a34a" opacity="0.34"/><circle cx="824" cy="162" r="12" fill="#16a34a" opacity="0.42"/><circle cx="907" cy="221" r="13" fill="#16a34a" opacity="0.18"/><circle cx="990" cy="280" r="4" fill="#16a34a" opacity="0.26"/><circle cx="1073" cy="339" r="5" fill="#16a34a" opacity="0.34"/><circle cx="856" cy="138" r="6" fill="#16a34a" opacity="0.42"/><circle cx="939" cy="197" r="7" fill="#16a34a" opacity="0.18"/><circle cx="1022" cy="256" r="8" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="305" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="285" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">PREMEDICINA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Sistema tegumentario y sistema</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">musculoesquelético - bloque 3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 24</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Administración - Emprendimiento e innovación - bloque 2">
+  <rect width="1200" height="560" fill="#f5f3ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#ddd6fe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#7c3aed" opacity="0.16"/>
+  <line x1="885" y1="335" x2="965" y2="385" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="956" y1="162" x2="1032" y2="216" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1027" y1="209" x2="829" y2="277" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="838" y1="256" x2="896" y2="338" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="909" y1="303" x2="963" y2="169" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="980" y1="350" x2="1030" y2="230" stroke="#7c3aed" stroke-width="2" opacity="0.18"/>
+  <circle cx="835" cy="285" r="9" fill="#7c3aed" opacity="0.18"/><circle cx="918" cy="344" r="10" fill="#7c3aed" opacity="0.26"/><circle cx="1001" cy="143" r="11" fill="#7c3aed" opacity="0.34"/><circle cx="1084" cy="202" r="12" fill="#7c3aed" opacity="0.42"/><circle cx="867" cy="261" r="13" fill="#7c3aed" opacity="0.18"/><circle cx="950" cy="320" r="4" fill="#7c3aed" opacity="0.26"/><circle cx="1033" cy="379" r="5" fill="#7c3aed" opacity="0.34"/><circle cx="816" cy="178" r="6" fill="#7c3aed" opacity="0.42"/><circle cx="899" cy="237" r="7" fill="#7c3aed" opacity="0.18"/><circle cx="982" cy="296" r="8" fill="#7c3aed" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="420" width="285" height="10" rx="5" fill="#7c3aed"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="448" width="425" height="10" rx="5" fill="#7c3aed" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#7c3aed" letter-spacing="2">ADMINISTRACIÓN</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Emprendimiento e innovación -</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#7c3aed">Leccion 18</text>
+</svg>

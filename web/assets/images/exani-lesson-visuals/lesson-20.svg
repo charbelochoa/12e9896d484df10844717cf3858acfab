@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Tipos de células">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#cbd5e1" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#475569" opacity="0.16"/>
+  <line x1="870" y1="330" x2="830" y2="330" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="941" y1="157" x2="897" y2="161" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1012" y1="204" x2="964" y2="222" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="823" y1="251" x2="1031" y2="283" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="894" y1="298" x2="828" y2="344" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="965" y1="345" x2="895" y2="175" stroke="#475569" stroke-width="2" opacity="0.18"/>
+  <circle cx="940" cy="150" r="4" fill="#475569" opacity="0.18"/><circle cx="1023" cy="209" r="5" fill="#475569" opacity="0.26"/><circle cx="806" cy="268" r="6" fill="#475569" opacity="0.34"/><circle cx="889" cy="327" r="7" fill="#475569" opacity="0.42"/><circle cx="972" cy="386" r="8" fill="#475569" opacity="0.18"/><circle cx="1055" cy="185" r="9" fill="#475569" opacity="0.26"/><circle cx="838" cy="244" r="10" fill="#475569" opacity="0.34"/><circle cx="921" cy="303" r="11" fill="#475569" opacity="0.42"/><circle cx="1004" cy="362" r="12" fill="#475569" opacity="0.18"/><circle cx="1087" cy="161" r="13" fill="#475569" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="420" width="150" height="10" rx="5" fill="#475569"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="448" width="320" height="10" rx="5" fill="#475569" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#475569" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Tipos de células</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#475569">Leccion 04</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Cálculo diferencial e integral - Bases algebraicas y funciones para cálculo - bloque 4">
+  <rect width="1200" height="560" fill="#ecfeff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#a5f3fc" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#0891b2" opacity="0.16"/>
+  <line x1="813" y1="327" x2="847" y2="171" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="884" y1="154" x2="914" y2="232" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="955" y1="201" x2="981" y2="293" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1026" y1="248" x2="1048" y2="354" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="837" y1="295" x2="845" y2="185" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="908" y1="342" x2="912" y2="246" stroke="#0891b2" stroke-width="2" opacity="0.18"/>
+  <circle cx="899" cy="261" r="11" fill="#0891b2" opacity="0.18"/><circle cx="982" cy="320" r="12" fill="#0891b2" opacity="0.26"/><circle cx="1065" cy="379" r="13" fill="#0891b2" opacity="0.34"/><circle cx="848" cy="178" r="4" fill="#0891b2" opacity="0.42"/><circle cx="931" cy="237" r="5" fill="#0891b2" opacity="0.18"/><circle cx="1014" cy="296" r="6" fill="#0891b2" opacity="0.26"/><circle cx="1097" cy="355" r="7" fill="#0891b2" opacity="0.34"/><circle cx="880" cy="154" r="8" fill="#0891b2" opacity="0.42"/><circle cx="963" cy="213" r="9" fill="#0891b2" opacity="0.18"/><circle cx="1046" cy="272" r="10" fill="#0891b2" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="420" width="157" height="10" rx="5" fill="#0891b2"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="448" width="369" height="10" rx="5" fill="#0891b2" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#0891b2" letter-spacing="2">CÁLCULO DIFERENCIAL E INTEGRAL</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Bases algebraicas y funciones para</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">cálculo - bloque 4</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#0891b2">Leccion 05</text>
+</svg>

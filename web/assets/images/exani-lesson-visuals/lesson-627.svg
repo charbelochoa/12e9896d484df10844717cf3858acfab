@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Premedicina - Integración clínica básica: cómo unir salud pública, anatomía, fisiología y biología - bloque 1">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="1053" y1="227" x2="877" y2="211" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="864" y1="274" x2="944" y2="272" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="935" y1="321" x2="1011" y2="333" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1006" y1="368" x2="1078" y2="164" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="817" y1="195" x2="875" y2="225" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="888" y1="242" x2="942" y2="286" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="899" cy="341" r="11" fill="#16a34a" opacity="0.18"/><circle cx="982" cy="140" r="12" fill="#16a34a" opacity="0.26"/><circle cx="1065" cy="199" r="13" fill="#16a34a" opacity="0.34"/><circle cx="848" cy="258" r="4" fill="#16a34a" opacity="0.42"/><circle cx="931" cy="317" r="5" fill="#16a34a" opacity="0.18"/><circle cx="1014" cy="376" r="6" fill="#16a34a" opacity="0.26"/><circle cx="1097" cy="175" r="7" fill="#16a34a" opacity="0.34"/><circle cx="880" cy="234" r="8" fill="#16a34a" opacity="0.42"/><circle cx="963" cy="293" r="9" fill="#16a34a" opacity="0.18"/><circle cx="1046" cy="352" r="10" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="157" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="369" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">PREMEDICINA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Integración clínica básica: cómo</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">unir salud pública, anatomía,</text>
+<text x="92" y="320" font-size="52" font-weight="800" fill="#0f172a">fisiología y biología - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 84</text>
+</svg>

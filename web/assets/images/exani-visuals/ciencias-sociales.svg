@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-label="Mapa visual de Ciencias sociales">
+  <rect width="960" height="480" rx="28" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="424" rx="24" fill="#ffffff" stroke="#dbeafe"/>
+  <g transform="translate(360 58) scale(0.86)">
+
+        <g stroke="#1d4ed8" stroke-width="7" opacity="0.18"><path d="M180 210l120-82 142 76-42 114-154 4z"/><path d="M300 128l-54 194M442 204l-196 118M180 210l220 108"/></g>
+        <g fill="#f59e0b"><circle cx="180" cy="210" r="18"/><circle cx="300" cy="128" r="18"/><circle cx="442" cy="204" r="18"/><circle cx="400" cy="318" r="18"/><circle cx="246" cy="322" r="18"/></g>
+  </g>
+  <text x="64" y="100" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#1d4ed8" letter-spacing="1.5">MAPA VISUAL</text>
+  <text x="64" y="166" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="900" fill="#0f172a">Ciencias sociales</text>
+  <text x="64" y="220" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" fill="#64748b">Ubica conceptos, relaciones y pasos antes de resolver.</text>
+  <path d="M64 302h260M64 338h210M64 374h300" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round" opacity="0.15"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="40" viewBox="0 0 150 40" aria-hidden="true">
+  <rect width="150" height="40" rx="10" fill="white"/>
+  <path d="M18 24c4-10 9-14 14-14 6 0 7 10 12 10 4 0 6-8 11-8 5 0 9 4 12 12" fill="none" stroke="#0057D9" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="25" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">Meta</text>
+</svg>

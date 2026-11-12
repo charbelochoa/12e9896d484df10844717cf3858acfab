@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Matemáticas financieras - Introducción a las matemáticas financieras para EXANI-II - bloque 1">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="819" y1="241" x2="901" y2="193" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="890" y1="288" x2="968" y2="254" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="961" y1="335" x2="1035" y2="315" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1032" y1="162" x2="832" y2="376" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="843" y1="209" x2="899" y2="207" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="914" y1="256" x2="966" y2="268" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="1097" cy="263" r="5" fill="#ea580c" opacity="0.18"/><circle cx="880" cy="322" r="6" fill="#ea580c" opacity="0.26"/><circle cx="963" cy="381" r="7" fill="#ea580c" opacity="0.34"/><circle cx="1046" cy="180" r="8" fill="#ea580c" opacity="0.42"/><circle cx="829" cy="239" r="9" fill="#ea580c" opacity="0.18"/><circle cx="912" cy="298" r="10" fill="#ea580c" opacity="0.26"/><circle cx="995" cy="357" r="11" fill="#ea580c" opacity="0.34"/><circle cx="1078" cy="156" r="12" fill="#ea580c" opacity="0.42"/><circle cx="861" cy="215" r="13" fill="#ea580c" opacity="0.18"/><circle cx="944" cy="274" r="4" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="211" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="187" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">MATEMÁTICAS FINANCIERAS</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Introducción a las matemáticas</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">financieras para EXANI-II - bloque</text>
+<text x="92" y="320" font-size="52" font-weight="800" fill="#0f172a">1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 01</text>
+</svg>

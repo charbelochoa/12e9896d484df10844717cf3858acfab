@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Membrana celular y transporte - bloque 2">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="1033" y1="227" x2="927" y2="381" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="844" y1="274" x2="994" y2="212" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="915" y1="321" x2="1061" y2="273" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="986" y1="368" x2="858" y2="334" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1057" y1="195" x2="925" y2="165" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="868" y1="242" x2="992" y2="226" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="819" cy="161" r="11" fill="#16a34a" opacity="0.18"/><circle cx="902" cy="220" r="12" fill="#16a34a" opacity="0.26"/><circle cx="985" cy="279" r="13" fill="#16a34a" opacity="0.34"/><circle cx="1068" cy="338" r="4" fill="#16a34a" opacity="0.42"/><circle cx="851" cy="137" r="5" fill="#16a34a" opacity="0.18"/><circle cx="934" cy="196" r="6" fill="#16a34a" opacity="0.26"/><circle cx="1017" cy="255" r="7" fill="#16a34a" opacity="0.34"/><circle cx="800" cy="314" r="8" fill="#16a34a" opacity="0.42"/><circle cx="883" cy="373" r="9" fill="#16a34a" opacity="0.18"/><circle cx="966" cy="172" r="10" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="317" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="369" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Membrana celular y transporte -</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 08</text>
+</svg>

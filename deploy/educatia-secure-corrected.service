@@ -1,0 +1,32 @@
+[Unit]
+Description=EducatIA Secure Campus Service - Hardened Mode (loopback)
+After=network.target
+
+[Service]
+Type=simple
+User=educatia-lab
+Group=educatia-lab
+WorkingDirectory=/opt/educatia-secure
+ExecStart=/usr/bin/python3 -m app.server --host 127.0.0.1 --port 8090 --internal-port 8092 --data /var/lib/educatia-secure-corrected --hardened
+Restart=on-failure
+RestartSec=5
+StateDirectory=educatia-secure-corrected
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+CapabilityBoundingSet=
+IPAddressDeny=any
+IPAddressAllow=localhost
+MemoryMax=384M
+TasksMax=128
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Ciencias experimentales - Método científico experimental y medición - bloque 2">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="1025" y1="195" x2="945" y2="275" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="836" y1="242" x2="1012" y2="336" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="907" y1="289" x2="1079" y2="167" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="978" y1="336" x2="876" y2="228" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1049" y1="163" x2="943" y2="289" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="860" y1="210" x2="1010" y2="350" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="855" cy="245" r="9" fill="#16a34a" opacity="0.18"/><circle cx="938" cy="304" r="10" fill="#16a34a" opacity="0.26"/><circle cx="1021" cy="363" r="11" fill="#16a34a" opacity="0.34"/><circle cx="804" cy="162" r="12" fill="#16a34a" opacity="0.42"/><circle cx="887" cy="221" r="13" fill="#16a34a" opacity="0.18"/><circle cx="970" cy="280" r="4" fill="#16a34a" opacity="0.26"/><circle cx="1053" cy="339" r="5" fill="#16a34a" opacity="0.34"/><circle cx="836" cy="138" r="6" fill="#16a34a" opacity="0.42"/><circle cx="919" cy="197" r="7" fill="#16a34a" opacity="0.18"/><circle cx="1002" cy="256" r="8" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="245" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="425" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">CIENCIAS EXPERIMENTALES</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Método científico experimental y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">medición - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 02</text>
+</svg>

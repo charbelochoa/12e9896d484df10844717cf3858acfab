@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Cálculo diferencial e integral - Integral definida, áreas y acumulación - bloque 1">
+  <rect width="1200" height="560" fill="#f5f3ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#ddd6fe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#7c3aed" opacity="0.16"/>
+  <line x1="1064" y1="296" x2="1026" y2="188" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="875" y1="343" x2="823" y2="249" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="946" y1="170" x2="890" y2="310" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1017" y1="217" x2="957" y2="371" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="828" y1="264" x2="1024" y2="202" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="899" y1="311" x2="821" y2="263" stroke="#7c3aed" stroke-width="2" opacity="0.18"/>
+  <circle cx="942" cy="388" r="10" fill="#7c3aed" opacity="0.18"/><circle cx="1025" cy="187" r="11" fill="#7c3aed" opacity="0.26"/><circle cx="808" cy="246" r="12" fill="#7c3aed" opacity="0.34"/><circle cx="891" cy="305" r="13" fill="#7c3aed" opacity="0.42"/><circle cx="974" cy="364" r="4" fill="#7c3aed" opacity="0.18"/><circle cx="1057" cy="163" r="5" fill="#7c3aed" opacity="0.26"/><circle cx="840" cy="222" r="6" fill="#7c3aed" opacity="0.34"/><circle cx="923" cy="281" r="7" fill="#7c3aed" opacity="0.42"/><circle cx="1006" cy="340" r="8" fill="#7c3aed" opacity="0.18"/><circle cx="1089" cy="139" r="9" fill="#7c3aed" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="420" width="196" height="10" rx="5" fill="#7c3aed"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="448" width="362" height="10" rx="5" fill="#7c3aed" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#7c3aed" letter-spacing="2">CÁLCULO DIFERENCIAL E INTEGRAL</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Integral definida, áreas y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">acumulación - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#7c3aed">Leccion 25</text>
+</svg>

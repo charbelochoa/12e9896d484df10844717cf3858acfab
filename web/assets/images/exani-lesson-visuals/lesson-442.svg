@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Aritmética - Lenguaje común y lenguaje matemático - bloque 2">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="888" y1="212" x2="852" y2="306" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="959" y1="259" x2="919" y2="367" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1030" y1="306" x2="986" y2="198" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="841" y1="353" x2="1053" y2="259" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="912" y1="180" x2="850" y2="320" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="983" y1="227" x2="917" y2="381" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="954" cy="156" r="6" fill="#ea580c" opacity="0.18"/><circle cx="1037" cy="215" r="7" fill="#ea580c" opacity="0.26"/><circle cx="820" cy="274" r="8" fill="#ea580c" opacity="0.34"/><circle cx="903" cy="333" r="9" fill="#ea580c" opacity="0.42"/><circle cx="986" cy="132" r="10" fill="#ea580c" opacity="0.18"/><circle cx="1069" cy="191" r="11" fill="#ea580c" opacity="0.26"/><circle cx="852" cy="250" r="12" fill="#ea580c" opacity="0.34"/><circle cx="935" cy="309" r="13" fill="#ea580c" opacity="0.42"/><circle cx="1018" cy="368" r="4" fill="#ea580c" opacity="0.18"/><circle cx="801" cy="167" r="5" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="172" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="194" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">ARITMÉTICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Lenguaje común y lenguaje</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">matemático - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 42</text>
+</svg>

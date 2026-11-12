@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Derecho - Derecho administrativo y administración pública - bloque 1">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="954" y1="166" x2="1056" y2="358" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1025" y1="213" x2="853" y2="189" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="836" y1="260" x2="920" y2="250" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="907" y1="307" x2="987" y2="311" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="978" y1="354" x2="1054" y2="372" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1049" y1="181" x2="851" y2="203" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="972" cy="178" r="10" fill="#16a34a" opacity="0.18"/><circle cx="1055" cy="237" r="11" fill="#16a34a" opacity="0.26"/><circle cx="838" cy="296" r="12" fill="#16a34a" opacity="0.34"/><circle cx="921" cy="355" r="13" fill="#16a34a" opacity="0.42"/><circle cx="1004" cy="154" r="4" fill="#16a34a" opacity="0.18"/><circle cx="1087" cy="213" r="5" fill="#16a34a" opacity="0.26"/><circle cx="870" cy="272" r="6" fill="#16a34a" opacity="0.34"/><circle cx="953" cy="331" r="7" fill="#16a34a" opacity="0.42"/><circle cx="1036" cy="130" r="8" fill="#16a34a" opacity="0.18"/><circle cx="819" cy="189" r="9" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="186" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="292" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">DERECHO</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Derecho administrativo y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">administración pública - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 29</text>
+</svg>

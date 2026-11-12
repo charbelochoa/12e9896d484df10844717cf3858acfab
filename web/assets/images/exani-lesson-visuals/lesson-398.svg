@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Premedicina - Aparato digestivo, nutrición y metabolismo de nutrientes - bloque 3">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="912" y1="168" x2="938" y2="254" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="983" y1="215" x2="1005" y2="315" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1054" y1="262" x2="1072" y2="376" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="865" y1="309" x2="869" y2="207" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="936" y1="356" x2="936" y2="268" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1007" y1="183" x2="1003" y2="329" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="826" cy="164" r="12" fill="#2563eb" opacity="0.18"/><circle cx="909" cy="223" r="13" fill="#2563eb" opacity="0.26"/><circle cx="992" cy="282" r="4" fill="#2563eb" opacity="0.34"/><circle cx="1075" cy="341" r="5" fill="#2563eb" opacity="0.42"/><circle cx="858" cy="140" r="6" fill="#2563eb" opacity="0.18"/><circle cx="941" cy="199" r="7" fill="#2563eb" opacity="0.26"/><circle cx="1024" cy="258" r="8" fill="#2563eb" opacity="0.34"/><circle cx="807" cy="317" r="9" fill="#2563eb" opacity="0.42"/><circle cx="890" cy="376" r="10" fill="#2563eb" opacity="0.18"/><circle cx="973" cy="175" r="11" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="328" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="446" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">PREMEDICINA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Aparato digestivo, nutrición y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">metabolismo de nutrientes - bloque</text>
+<text x="92" y="320" font-size="52" font-weight="800" fill="#0f172a">3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 47</text>
+</svg>

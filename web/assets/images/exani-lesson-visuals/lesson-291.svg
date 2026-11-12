@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Economía - Macroeconomía e indicadores económicos - bloque 1">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="929" y1="151" x2="871" y2="253" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1000" y1="198" x2="938" y2="314" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="811" y1="245" x2="1005" y2="375" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="882" y1="292" x2="1072" y2="206" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="953" y1="339" x2="869" y2="267" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1024" y1="166" x2="936" y2="328" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="1067" cy="213" r="5" fill="#ea580c" opacity="0.18"/><circle cx="850" cy="272" r="6" fill="#ea580c" opacity="0.26"/><circle cx="933" cy="331" r="7" fill="#ea580c" opacity="0.34"/><circle cx="1016" cy="130" r="8" fill="#ea580c" opacity="0.42"/><circle cx="1099" cy="189" r="9" fill="#ea580c" opacity="0.18"/><circle cx="882" cy="248" r="10" fill="#ea580c" opacity="0.26"/><circle cx="965" cy="307" r="11" fill="#ea580c" opacity="0.34"/><circle cx="1048" cy="366" r="12" fill="#ea580c" opacity="0.42"/><circle cx="831" cy="165" r="13" fill="#ea580c" opacity="0.18"/><circle cx="914" cy="224" r="4" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="221" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="257" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">ECONOMÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Macroeconomía e indicadores</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">económicos - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 37</text>
+</svg>

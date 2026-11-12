@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Administración - Organización - bloque 7">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="942" y1="258" x2="1078" y2="224" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1013" y1="305" x2="875" y2="285" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="824" y1="352" x2="942" y2="346" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="895" y1="179" x2="1009" y2="177" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="966" y1="226" x2="1076" y2="238" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1037" y1="273" x2="873" y2="299" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="896" cy="174" r="12" fill="#ea580c" opacity="0.18"/><circle cx="979" cy="233" r="13" fill="#ea580c" opacity="0.26"/><circle cx="1062" cy="292" r="4" fill="#ea580c" opacity="0.34"/><circle cx="845" cy="351" r="5" fill="#ea580c" opacity="0.42"/><circle cx="928" cy="150" r="6" fill="#ea580c" opacity="0.18"/><circle cx="1011" cy="209" r="7" fill="#ea580c" opacity="0.26"/><circle cx="1094" cy="268" r="8" fill="#ea580c" opacity="0.34"/><circle cx="877" cy="327" r="9" fill="#ea580c" opacity="0.42"/><circle cx="960" cy="386" r="10" fill="#ea580c" opacity="0.18"/><circle cx="1043" cy="185" r="11" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="138" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="236" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">ADMINISTRACIÓN</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Organización - bloque 7</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 34</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Teoría celular y estudio de la célula">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="841" y1="299" x2="1059" y2="287" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="912" y1="346" x2="856" y2="348" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="983" y1="173" x2="923" y2="179" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1054" y1="220" x2="990" y2="240" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="865" y1="267" x2="1057" y2="301" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="936" y1="314" x2="854" y2="362" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="903" cy="357" r="13" fill="#ea580c" opacity="0.18"/><circle cx="986" cy="156" r="4" fill="#ea580c" opacity="0.26"/><circle cx="1069" cy="215" r="5" fill="#ea580c" opacity="0.34"/><circle cx="852" cy="274" r="6" fill="#ea580c" opacity="0.42"/><circle cx="935" cy="333" r="7" fill="#ea580c" opacity="0.18"/><circle cx="1018" cy="132" r="8" fill="#ea580c" opacity="0.26"/><circle cx="801" cy="191" r="9" fill="#ea580c" opacity="0.34"/><circle cx="884" cy="250" r="10" fill="#ea580c" opacity="0.42"/><circle cx="967" cy="309" r="11" fill="#ea580c" opacity="0.18"/><circle cx="1050" cy="368" r="12" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="149" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="313" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Teoría celular y estudio de la</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">célula</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 03</text>
+</svg>

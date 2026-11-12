@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Aritmética - Notación científica - bloque 2">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="973" y1="187" x2="1047" y2="351" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1044" y1="234" x2="844" y2="182" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="855" y1="281" x2="911" y2="243" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="926" y1="328" x2="978" y2="304" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="997" y1="155" x2="1045" y2="365" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1068" y1="202" x2="842" y2="196" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="999" cy="141" r="11" fill="#ea580c" opacity="0.18"/><circle cx="1082" cy="200" r="12" fill="#ea580c" opacity="0.26"/><circle cx="865" cy="259" r="13" fill="#ea580c" opacity="0.34"/><circle cx="948" cy="318" r="4" fill="#ea580c" opacity="0.42"/><circle cx="1031" cy="377" r="5" fill="#ea580c" opacity="0.18"/><circle cx="814" cy="176" r="6" fill="#ea580c" opacity="0.26"/><circle cx="897" cy="235" r="7" fill="#ea580c" opacity="0.34"/><circle cx="980" cy="294" r="8" fill="#ea580c" opacity="0.42"/><circle cx="1063" cy="353" r="9" fill="#ea580c" opacity="0.18"/><circle cx="846" cy="152" r="10" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="157" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="369" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">ARITMÉTICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Notación científica - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 27</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Derecho - Derecho civil y familiar - bloque 6">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="864" y1="256" x2="1036" y2="358" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="935" y1="303" x2="833" y2="189" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1006" y1="350" x2="900" y2="250" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="817" y1="177" x2="967" y2="311" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="888" y1="224" x2="1034" y2="372" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="959" y1="271" x2="831" y2="203" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="1082" cy="148" r="10" fill="#16a34a" opacity="0.18"/><circle cx="865" cy="207" r="11" fill="#16a34a" opacity="0.26"/><circle cx="948" cy="266" r="12" fill="#16a34a" opacity="0.34"/><circle cx="1031" cy="325" r="13" fill="#16a34a" opacity="0.42"/><circle cx="814" cy="384" r="4" fill="#16a34a" opacity="0.18"/><circle cx="897" cy="183" r="5" fill="#16a34a" opacity="0.26"/><circle cx="980" cy="242" r="6" fill="#16a34a" opacity="0.34"/><circle cx="1063" cy="301" r="7" fill="#16a34a" opacity="0.42"/><circle cx="846" cy="360" r="8" fill="#16a34a" opacity="0.18"/><circle cx="929" cy="159" r="9" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="216" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="222" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">DERECHO</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Derecho civil y familiar - bloque</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">6</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 39</text>
+</svg>

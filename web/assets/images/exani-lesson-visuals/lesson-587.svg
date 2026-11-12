@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Matemáticas financieras - Valor presente y valor futuro - bloque 2">
+  <rect width="1200" height="560" fill="#f0fdf4"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bbf7d0" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#16a34a" opacity="0.16"/>
+  <line x1="933" y1="307" x2="857" y2="331" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1004" y1="354" x2="924" y2="162" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="815" y1="181" x2="991" y2="223" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="886" y1="228" x2="1058" y2="284" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="957" y1="275" x2="855" y2="345" stroke="#16a34a" stroke-width="2" opacity="0.18"/><line x1="1028" y1="322" x2="922" y2="176" stroke="#16a34a" stroke-width="2" opacity="0.18"/>
+  <circle cx="919" cy="301" r="11" fill="#16a34a" opacity="0.18"/><circle cx="1002" cy="360" r="12" fill="#16a34a" opacity="0.26"/><circle cx="1085" cy="159" r="13" fill="#16a34a" opacity="0.34"/><circle cx="868" cy="218" r="4" fill="#16a34a" opacity="0.42"/><circle cx="951" cy="277" r="5" fill="#16a34a" opacity="0.18"/><circle cx="1034" cy="336" r="6" fill="#16a34a" opacity="0.26"/><circle cx="817" cy="135" r="7" fill="#16a34a" opacity="0.34"/><circle cx="900" cy="194" r="8" fill="#16a34a" opacity="0.42"/><circle cx="983" cy="253" r="9" fill="#16a34a" opacity="0.18"/><circle cx="1066" cy="312" r="10" fill="#16a34a" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="420" width="317" height="10" rx="5" fill="#16a34a"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bbf7d0"/>
+  <rect x="92" y="448" width="369" height="10" rx="5" fill="#16a34a" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#16a34a" letter-spacing="2">MATEMÁTICAS FINANCIERAS</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Valor presente y valor futuro -</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#16a34a">Leccion 28</text>
+</svg>

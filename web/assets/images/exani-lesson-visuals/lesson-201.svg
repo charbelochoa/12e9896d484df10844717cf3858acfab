@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Cálculo diferencial e integral - Límites: idea intuitiva, cálculo y propiedades - bloque 3">
+  <rect width="1200" height="560" fill="#f5f3ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#ddd6fe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#7c3aed" opacity="0.16"/>
+  <line x1="919" y1="221" x2="961" y2="293" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="990" y1="268" x2="1028" y2="354" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1061" y1="315" x2="825" y2="185" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="872" y1="362" x2="892" y2="246" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="943" y1="189" x2="959" y2="307" stroke="#7c3aed" stroke-width="2" opacity="0.18"/><line x1="1014" y1="236" x2="1026" y2="368" stroke="#7c3aed" stroke-width="2" opacity="0.18"/>
+  <circle cx="1037" cy="383" r="5" fill="#7c3aed" opacity="0.18"/><circle cx="820" cy="182" r="6" fill="#7c3aed" opacity="0.26"/><circle cx="903" cy="241" r="7" fill="#7c3aed" opacity="0.34"/><circle cx="986" cy="300" r="8" fill="#7c3aed" opacity="0.42"/><circle cx="1069" cy="359" r="9" fill="#7c3aed" opacity="0.18"/><circle cx="852" cy="158" r="10" fill="#7c3aed" opacity="0.26"/><circle cx="935" cy="217" r="11" fill="#7c3aed" opacity="0.34"/><circle cx="1018" cy="276" r="12" fill="#7c3aed" opacity="0.42"/><circle cx="801" cy="335" r="13" fill="#7c3aed" opacity="0.18"/><circle cx="884" cy="134" r="4" fill="#7c3aed" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="420" width="131" height="10" rx="5" fill="#7c3aed"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#ddd6fe"/>
+  <rect x="92" y="448" width="187" height="10" rx="5" fill="#7c3aed" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#7c3aed" letter-spacing="2">CÁLCULO DIFERENCIAL E INTEGRAL</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Límites: idea intuitiva, cálculo y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">propiedades - bloque 3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#7c3aed">Leccion 08</text>
+</svg>

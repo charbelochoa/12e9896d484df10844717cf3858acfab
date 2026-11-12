@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Psicología - Motivación, emoción y personalidad">
+  <rect width="1200" height="560" fill="#fff7ed"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#fed7aa" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#ea580c" opacity="0.16"/>
+  <line x1="967" y1="193" x2="853" y2="239" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1038" y1="240" x2="920" y2="300" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="849" y1="287" x2="987" y2="361" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="920" y1="334" x2="1054" y2="192" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="991" y1="161" x2="851" y2="253" stroke="#ea580c" stroke-width="2" opacity="0.18"/><line x1="1062" y1="208" x2="918" y2="314" stroke="#ea580c" stroke-width="2" opacity="0.18"/>
+  <circle cx="821" cy="139" r="7" fill="#ea580c" opacity="0.18"/><circle cx="904" cy="198" r="8" fill="#ea580c" opacity="0.26"/><circle cx="987" cy="257" r="9" fill="#ea580c" opacity="0.34"/><circle cx="1070" cy="316" r="10" fill="#ea580c" opacity="0.42"/><circle cx="853" cy="375" r="11" fill="#ea580c" opacity="0.18"/><circle cx="936" cy="174" r="12" fill="#ea580c" opacity="0.26"/><circle cx="1019" cy="233" r="13" fill="#ea580c" opacity="0.34"/><circle cx="802" cy="292" r="4" fill="#ea580c" opacity="0.42"/><circle cx="885" cy="351" r="5" fill="#ea580c" opacity="0.18"/><circle cx="968" cy="150" r="6" fill="#ea580c" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="420" width="163" height="10" rx="5" fill="#ea580c"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#fed7aa"/>
+  <rect x="92" y="448" width="411" height="10" rx="5" fill="#ea580c" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#ea580c" letter-spacing="2">PSICOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Motivación, emoción y personalidad</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#ea580c">Leccion 07</text>
+</svg>

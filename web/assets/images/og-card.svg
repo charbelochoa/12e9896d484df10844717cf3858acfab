@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">educatIA</title>
+  <desc id="desc">Tarjeta social de educatIA para preparación EXANI-I y EXANI-II.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1115"/>
+      <stop offset="100%" stop-color="#1c2637"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" rx="36"/>
+  <g fill="none" stroke="rgba(255,255,255,0.08)">
+    <path d="M120 120h960v390H120z"/>
+    <path d="M120 320h960"/>
+    <path d="M420 120v390"/>
+  </g>
+  <text x="120" y="176" fill="#94a3b8" font-size="28" font-family="Inter, Arial, sans-serif" letter-spacing="4">PREPARACIÓN EXANI-I Y EXANI-II</text>
+  <text x="120" y="286" fill="#ffffff" font-size="88" font-weight="700" font-family="Inter, Arial, sans-serif">educatIA</text>
+  <text x="120" y="356" fill="#d6d9e0" font-size="34" font-family="Inter, Arial, sans-serif">Cursos, diagnóstico, simulacros y laboratorio</text>
+  <text x="120" y="406" fill="#d6d9e0" font-size="34" font-family="Inter, Arial, sans-serif">para preparar tu examen de admisión.</text>
+  <g transform="translate(812 154)">
+    <rect width="248" height="248" rx="32" fill="#ffffff" opacity="0.08"/>
+    <rect x="42" y="42" width="164" height="164" rx="24" fill="#ffffff"/>
+    <path d="M88 92h72v22h-52v24h40v22h-40v50H88z" fill="#101217"/>
+    <circle cx="160" cy="164" r="18" fill="#101217"/>
+    <circle cx="160" cy="164" r="8" fill="#ffffff"/>
+  </g>
+</svg>

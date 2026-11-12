@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Administración - Glosario esencial de administración - bloque 5">
+  <rect width="1200" height="560" fill="#ecfeff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#a5f3fc" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#0891b2" opacity="0.16"/>
+  <line x1="915" y1="345" x2="965" y2="265" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="986" y1="172" x2="1032" y2="326" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1057" y1="219" x2="829" y2="387" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="868" y1="266" x2="896" y2="218" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="939" y1="313" x2="963" y2="279" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1010" y1="360" x2="1030" y2="340" stroke="#0891b2" stroke-width="2" opacity="0.18"/>
+  <circle cx="925" cy="295" r="9" fill="#0891b2" opacity="0.18"/><circle cx="1008" cy="354" r="10" fill="#0891b2" opacity="0.26"/><circle cx="1091" cy="153" r="11" fill="#0891b2" opacity="0.34"/><circle cx="874" cy="212" r="12" fill="#0891b2" opacity="0.42"/><circle cx="957" cy="271" r="13" fill="#0891b2" opacity="0.18"/><circle cx="1040" cy="330" r="4" fill="#0891b2" opacity="0.26"/><circle cx="823" cy="389" r="5" fill="#0891b2" opacity="0.34"/><circle cx="906" cy="188" r="6" fill="#0891b2" opacity="0.42"/><circle cx="989" cy="247" r="7" fill="#0891b2" opacity="0.18"/><circle cx="1072" cy="306" r="8" fill="#0891b2" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="420" width="155" height="10" rx="5" fill="#0891b2"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="448" width="355" height="10" rx="5" fill="#0891b2" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#0891b2" letter-spacing="2">ADMINISTRACIÓN</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Glosario esencial de</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">administración - bloque 5</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#0891b2">Leccion 51</text>
+</svg>

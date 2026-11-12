@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Matemáticas financieras - Precio de venta, costo, ganancia y pérdida - bloque 2">
+  <rect width="1200" height="560" fill="#ecfeff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#a5f3fc" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#0891b2" opacity="0.16"/>
+  <line x1="964" y1="316" x2="966" y2="318" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1035" y1="363" x2="1033" y2="379" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="846" y1="190" x2="830" y2="210" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="917" y1="237" x2="897" y2="271" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="988" y1="284" x2="964" y2="332" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1059" y1="331" x2="1031" y2="163" stroke="#0891b2" stroke-width="2" opacity="0.18"/>
+  <circle cx="1002" cy="268" r="10" fill="#0891b2" opacity="0.18"/><circle cx="1085" cy="327" r="11" fill="#0891b2" opacity="0.26"/><circle cx="868" cy="386" r="12" fill="#0891b2" opacity="0.34"/><circle cx="951" cy="185" r="13" fill="#0891b2" opacity="0.42"/><circle cx="1034" cy="244" r="4" fill="#0891b2" opacity="0.18"/><circle cx="817" cy="303" r="5" fill="#0891b2" opacity="0.26"/><circle cx="900" cy="362" r="6" fill="#0891b2" opacity="0.34"/><circle cx="983" cy="161" r="7" fill="#0891b2" opacity="0.42"/><circle cx="1066" cy="220" r="8" fill="#0891b2" opacity="0.18"/><circle cx="849" cy="279" r="9" fill="#0891b2" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="420" width="276" height="10" rx="5" fill="#0891b2"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="448" width="362" height="10" rx="5" fill="#0891b2" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#0891b2" letter-spacing="2">MATEMÁTICAS FINANCIERAS</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Precio de venta, costo, ganancia y</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">pérdida - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#0891b2">Leccion 10</text>
+</svg>

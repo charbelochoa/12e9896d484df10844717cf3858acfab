@@ -1,0 +1,1435 @@
+/* ================================================================
+   educatIA — Mobile App View Styles
+   (Independiente de la versión de escritorio)
+   ================================================================ */
+
+.edu-mob-layout {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    background: #fff;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+/* Typography Base */
+.edu-mob-layout h1, .edu-mob-layout h2, .edu-mob-layout h3, .edu-mob-layout h4 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.edu-mob-layout p {
+    margin: 0;
+}
+
+.edu-mob-layout a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Sections */
+.edu-mob-section {
+    padding: 24px 16px;
+    background: #fff;
+}
+.edu-mob-section--gray {
+    background: #f5f5f7;
+}
+
+.edu-mob-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edu-mob-title__link {
+    color: #0056D2;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Header (App Style) */
+.edu-mob-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ebebeb;
+}
+.edu-mob-header__menu {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.edu-mob-header__menu span {
+    width: 100%;
+    height: 2px;
+    background: #1d1d1f;
+    border-radius: 2px;
+}
+.edu-mob-header__logo {
+    height: 20px;
+    object-fit: contain;
+}
+.edu-mob-header__search {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.edu-mob-header__search svg {
+    width: 20px;
+    height: 20px;
+    stroke: #1d1d1f;
+}
+
+/* Sliders (Scroll Horizontal Nativo) */
+.edu-mob-slider {
+    margin: 0 -16px;
+    padding: 0 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+.edu-mob-slider::-webkit-scrollbar {
+    display: none;
+}
+.edu-mob-slider__track {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 8px; /* Room for shadow */
+}
+
+/* Hero Cards */
+.edu-mob-hero-card {
+    min-width: 85vw;
+    height: 380px;
+    border-radius: 16px;
+    overflow: hidden;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.edu-mob-hero-card--blue {
+    background: #014FBC;
+    color: #fff;
+}
+.edu-mob-hero-card--light {
+    background: #fff8e6;
+    border: 1px solid #ebebeb;
+}
+.edu-mob-hero-content {
+    padding: 24px 24px 16px 24px;
+}
+.edu-mob-hero-content h1 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.edu-mob-hero-card--blue h1, 
+.edu-mob-hero-card--blue p {
+    color: #fff !important;
+}
+.edu-mob-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    width: fit-content;
+}
+.edu-mob-btn--white {
+    background: #fff !important;
+    color: #0056D2 !important;
+}
+.edu-mob-btn--blue {
+    background: #0056D2;
+    color: #fff;
+}
+.edu-mob-hero-img-box {
+    flex: 1;
+    background: rgba(255,255,255,0.1);
+    position: relative;
+    overflow: hidden;
+}
+.edu-mob-hero-img-box img {
+    display: block;
+    width: 100%;
+    height: 135%;
+    object-fit: cover;
+    object-position: center 15%;
+}
+
+.edu-mob-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 16px;
+}
+.edu-mob-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #d2d2d7;
+}
+.edu-mob-dots span.active {
+    background: #1d1d1f;
+    width: 20px;
+    border-radius: 4px;
+}
+
+/* Popular Boxed List (Qué te trae...) */
+.edu-mob-boxed-list {
+    background: #f8faff;
+    border-radius: 16px;
+    padding: 24px 16px;
+}
+.edu-mob-boxed-list__title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.edu-mob-list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.edu-mob-list-btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border: 1px solid #ebebeb;
+    border-radius: 12px;
+    background: #fff;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+}
+.edu-mob-list-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: #0056D2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edu-mob-list-icon svg {
+    width: 18px;
+    height: 18px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.edu-mob-list-text {
+    font-size: 0.93rem;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+/* Career Cards */
+.edu-mob-career-card {
+    min-width: 180px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+}
+.edu-mob-career-img {
+    height: 100px;
+    background: #f0f0f0;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+}
+.edu-mob-career-body {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.edu-mob-career-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.edu-mob-career-salary {
+    font-size: 0.75rem;
+    color: #86868b;
+    line-height: 1.4;
+}
+
+/* Grouped Courses Slider */
+.edu-mob-group-box {
+    background: #f0f4f8;
+    border-radius: 16px;
+    padding: 20px 16px;
+    min-width: 300px;
+    scroll-snap-align: start;
+}
+.edu-mob-group-box__header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.edu-mob-course-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+.edu-mob-course-card:last-child {
+    margin-bottom: 0;
+}
+.edu-mob-course-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background: #e0e0e0;
+    flex-shrink: 0;
+}
+.edu-mob-course-info {
+    flex: 1;
+    min-width: 0;
+}
+.edu-mob-course-uni {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: #6e6e73;
+    margin-bottom: 4px;
+}
+.edu-mob-course-uni img {
+    height: 12px;
+}
+.edu-mob-course-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.edu-mob-course-meta {
+    font-size: 0.75rem;
+    color: #86868b;
+}
+
+/* Pills & Badges */
+.edu-mob-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    scroll-snap-align: start;
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+.edu-mob-pill svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Banner */
+.edu-mob-banner {
+    background: linear-gradient(135deg, #A855F7 0%, #3B82F6 100%);
+    color: #fff;
+    padding: 32px 24px;
+}
+.edu-mob-banner h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.edu-mob-banner p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    opacity: 0.9;
+}
+.edu-mob-banner-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    color: #0056D2;
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+/* Placeholders for Images */
+.edu-mob-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(45deg, #f5f5f5 25%, transparent 25%, transparent 75%, #f5f5f5 75%, #f5f5f5), linear-gradient(45deg, #f5f5f5 25%, transparent 25%, transparent 75%, #f5f5f5 75%, #f5f5f5);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+/* FAQ Section */
+.edu-mob-faq {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.edu-mob-faq h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.edu-mob-faq-item {
+    border-top: 1px solid #ebebeb;
+}
+.edu-mob-faq-item:last-child {
+    border-bottom: 1px solid #ebebeb;
+}
+.edu-mob-faq-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    list-style: none;
+    color: #1d1d1f;
+}
+.edu-mob-faq-summary::-webkit-details-marker {
+    display: none;
+}
+.edu-mob-faq-summary svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+details[open] .edu-mob-faq-summary svg {
+    transform: rotate(180deg);
+}
+.edu-mob-faq-content {
+    padding-bottom: 16px;
+    font-size: 0.9rem;
+    color: #6e6e73;
+    line-height: 1.5;
+}
+
+/* ================================================================
+   educatIA marketplace landing overrides
+   Loaded after styles.css, so these keep the phone view stable.
+   ================================================================ */
+.edu-mob-market,
+.edu-mob-market * {
+    box-sizing: border-box;
+}
+
+.edu-mob-market {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: #ffffff;
+}
+
+.edu-mob-market__top {
+    display: none;
+}
+
+.edu-mob-market .edu-mob-section {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.edu-mob-hero-market {
+    display: grid;
+    gap: 18px;
+    padding-top: 20px;
+}
+
+.edu-mob-hero-market__copy {
+    min-width: 0;
+}
+
+.edu-mob-hero-market__copy span {
+    color: #0056d2;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.edu-mob-hero-market__copy h1 {
+    margin: 8px 0 10px;
+    color: #111827;
+    font-size: 28px;
+    line-height: 1.08;
+    letter-spacing: 0;
+    overflow-wrap: break-word;
+}
+
+.edu-mob-hero-market__copy p {
+    margin: 0 0 18px;
+    color: #5f6368;
+    font-size: 15px;
+    line-height: 1.48;
+}
+
+.edu-mob-hero-market img {
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.edu-mob-market__stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.edu-mob-market__stats div {
+    min-height: 74px;
+    display: grid;
+    align-content: center;
+    gap: 4px;
+    padding: 10px;
+    border: 1px solid #d9e2ef;
+    border-radius: 8px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.edu-mob-market__stats div:last-child {
+    grid-column: 1 / -1;
+}
+
+.edu-mob-market__stats strong {
+    color: #111827;
+    font-size: 15px;
+}
+
+.edu-mob-market__stats span {
+    color: #667085;
+    font-size: 11px;
+}
+
+.edu-mob-title--row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.edu-mob-title--row a {
+    display: none;
+}
+
+.edu-mob-course-rail {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    gap: 12px;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 0 12px;
+}
+
+.edu-mob-course-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #d9e2ef;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    color: #111827;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.edu-mob-course-card img {
+    width: 100%;
+    height: 128px;
+    display: block;
+    object-fit: cover;
+}
+
+.edu-mob-course-card:first-child img {
+    object-fit: contain;
+    background: #ffffff;
+}
+
+.edu-mob-course-card span {
+    margin: 12px 12px 6px;
+    color: #0056d2;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.edu-mob-course-card h3 {
+    margin: 0 12px 8px;
+    color: #111827;
+    font-size: 16px;
+    line-height: 1.26;
+}
+
+.edu-mob-course-card p {
+    margin: auto 12px 14px;
+    color: #667085;
+    font-size: 13px;
+}
+
+.edu-mob-chip-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.edu-mob-chip-cloud a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 0 12px;
+    border-radius: 999px;
+    border: 1px solid #d9e2ef;
+    background: #ffffff;
+    color: #111827;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.edu-mob-market .edu-mob-list-icon {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.edu-mob-premium-panel {
+    padding: 24px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0056d2, #14315f);
+    color: #ffffff;
+}
+
+.edu-mob-premium-panel span {
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.edu-mob-premium-panel h2 {
+    margin: 8px 0 10px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.16;
+}
+
+.edu-mob-premium-panel p {
+    margin: 0 0 20px;
+    color: rgba(255,255,255,0.82);
+    font-size: 15px;
+    line-height: 1.48;
+}
+
+/* ================================================================
+   Mobile EXANI-II Explore
+   ================================================================ */
+.exani-mob {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 108px;
+    background: #ffffff;
+    color: #111827;
+}
+
+.exani-mob,
+.exani-mob * {
+    box-sizing: border-box;
+}
+
+.exani-mob-top {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.94);
+    border-bottom: 1px solid #e5e7eb;
+    backdrop-filter: blur(12px);
+}
+
+.exani-mob-top__brand {
+    color: #111827;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.exani-mob-top nav {
+    display: flex;
+    gap: 10px;
+}
+
+.exani-mob-top nav a {
+    color: #344054;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.exani-mob-hero {
+    display: grid;
+    gap: 12px;
+    width: 100%;
+    max-width: 100vw;
+    padding: 28px 16px 20px;
+    background: linear-gradient(135deg, #f8fbff 0%, #eef6ff 70%, #ffffff 100%);
+}
+
+.exani-mob-hero > span,
+.exani-mob-cta > span {
+    color: #0056d2;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.exani-mob-hero h1 {
+    margin: 0;
+    min-width: 0;
+    max-width: calc(100vw - 32px);
+    color: #111827;
+    font-size: 30px;
+    line-height: 1.04;
+    overflow-wrap: break-word;
+}
+
+.exani-mob-hero p,
+.exani-mob-cta p {
+    margin: 0;
+    min-width: 0;
+    max-width: calc(100vw - 32px);
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.48;
+    overflow-wrap: break-word;
+}
+
+.exani-mob-stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: calc(100vw - 32px);
+    margin-top: 6px;
+}
+
+.exani-mob-stats div {
+    display: grid;
+    gap: 4px;
+    padding: 14px;
+    border: 1px solid #d9e2ef;
+    border-radius: 8px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.exani-mob-stats strong {
+    color: #111827;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.exani-mob-stats small {
+    color: #667085;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.exani-mob-search {
+    width: 100%;
+    max-width: 100vw;
+    padding: 14px 16px 8px;
+}
+
+.exani-mob-search input {
+    width: 100%;
+    min-height: 44px;
+    border: 1px solid #d9e2ef;
+    border-radius: 8px;
+    background: #f8fafc;
+    padding: 0 14px;
+    color: #111827;
+    outline: 0;
+}
+
+.exani-mob-filters {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 8px 16px 14px;
+    scrollbar-width: none;
+}
+
+.exani-mob-filters::-webkit-scrollbar {
+    display: none;
+}
+
+.exani-mob-filters button {
+    min-height: 34px;
+    padding: 0 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 12px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.exani-mob-filters button.is-active {
+    border-color: #111827;
+    background: #111827;
+    color: #ffffff;
+}
+
+.exani-mob-list {
+    display: grid;
+    gap: 12px;
+    width: 100%;
+    max-width: 100vw;
+    padding: 0 16px 22px;
+}
+
+.exani-mob-card {
+    overflow: hidden;
+    width: 100%;
+    max-width: calc(100vw - 32px);
+    border: 1px solid #d9e2ef;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.exani-mob-card.is-open {
+    border-color: #0056d2;
+    box-shadow: 0 16px 32px rgba(15, 23, 42, 0.08);
+}
+
+.exani-mob-card__head {
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    padding: 16px;
+    border: 0;
+    background: #ffffff;
+    color: inherit;
+    text-align: left;
+}
+
+.exani-mob-card__head span {
+    width: fit-content;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #eef4ff;
+    color: #0056d2;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.exani-mob-card--green .exani-mob-card__head span { background: #e9f8ef; color: #15803d; }
+.exani-mob-card--orange .exani-mob-card__head span { background: #fff1e7; color: #c2410c; }
+.exani-mob-card--violet .exani-mob-card__head span { background: #f3e8ff; color: #6d28d9; }
+.exani-mob-card--pink .exani-mob-card__head span { background: #fce7f3; color: #be185d; }
+.exani-mob-card--teal .exani-mob-card__head span { background: #e6fffb; color: #0f766e; }
+.exani-mob-card--slate .exani-mob-card__head span { background: #eef2f7; color: #334155; }
+.exani-mob-card--amber .exani-mob-card__head span { background: #fff7d6; color: #b45309; }
+
+.exani-mob-card__head h3 {
+    margin: 0;
+    min-width: 0;
+    color: #111827;
+    font-size: 20px;
+    line-height: 1.18;
+    overflow-wrap: break-word;
+}
+
+.exani-mob-card__head p {
+    margin: 0;
+    min-width: 0;
+    color: #667085;
+    font-size: 14px;
+    line-height: 1.45;
+    overflow-wrap: break-word;
+}
+
+.exani-mob-card__head div {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.exani-mob-card__head strong {
+    color: #475569;
+    font-size: 12px;
+}
+
+.exani-mob-card__body {
+    display: grid;
+    gap: 10px;
+    padding: 0 16px 16px;
+}
+
+.exani-mob-card__body section {
+    padding: 14px;
+    border-radius: 8px;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+}
+
+.exani-mob-card__body h4 {
+    margin: 0 0 8px;
+    color: #111827;
+    font-size: 15px;
+}
+
+.exani-mob-card__body ul {
+    display: grid;
+    gap: 7px;
+    margin: 0;
+    padding-left: 18px;
+}
+
+.exani-mob-card__body li {
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.42;
+    overflow-wrap: break-word;
+}
+
+.exani-mob-empty {
+    padding: 22px;
+    border-radius: 8px;
+    border: 1px dashed #cbd5e1;
+    background: #ffffff;
+}
+
+.exani-mob-empty h3 {
+    margin: 0 0 8px;
+    color: #111827;
+    font-size: 18px;
+}
+
+.exani-mob-empty p {
+    margin: 0;
+    color: #667085;
+    font-size: 14px;
+}
+
+.exani-mob-cta {
+    display: grid;
+    gap: 10px;
+    margin: 0 16px 28px;
+    padding: 22px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0056d2, #14315f);
+    color: #ffffff;
+}
+
+.exani-mob-cta > span,
+.exani-mob-cta h2,
+.exani-mob-cta p {
+    color: #ffffff;
+}
+
+.exani-mob-cta h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.12;
+}
+
+.exani-mob-cta p {
+    opacity: 0.84;
+}
+
+/* ================================================================
+   Mobile explore marketplace
+   ================================================================ */
+.exm-mob,
+.exm-mob * {
+    box-sizing: border-box;
+}
+
+.exm-mob {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding-bottom: 112px;
+    background: #ffffff;
+    color: #111827;
+}
+
+.exm-mob-hero {
+    display: grid;
+    gap: 16px;
+    margin: 0;
+    overflow: hidden;
+    padding: 28px 16px 18px;
+    border-bottom: 0;
+    background: #000000;
+}
+
+.exm-mob-hero span,
+.exm-mob-band span {
+    display: inline-flex;
+    color: #9ec5ff;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.exm-mob-hero h1 {
+    margin: 8px 0;
+    color: #ffffff;
+    font-size: 33px;
+    line-height: 1.04;
+    letter-spacing: 0;
+}
+
+.exm-mob-hero p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.exm-mob-hero__media {
+    min-height: 178px;
+    margin: 0 -16px;
+    overflow: hidden;
+}
+
+.exm-mob-hero__media img {
+    width: 100%;
+    height: 178px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.exm-mob-hero__stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.exm-mob-hero__stats div {
+    display: grid;
+    gap: 4px;
+    padding: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.exm-mob-hero__stats strong {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.exm-mob-hero__stats small {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.exm-mob-search {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 16px 16px 0;
+    padding: 0 14px;
+    border: 1px solid #d9e2ef;
+    border-radius: 999px;
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.exm-mob-search svg {
+    width: 17px;
+    height: 17px;
+    color: #111827;
+}
+
+.exm-mob-search input {
+    min-width: 0;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    color: #111827;
+    background: transparent;
+    font-size: 14px;
+}
+
+.exm-mob-chip-row {
+    width: 100%;
+    display: flex;
+    gap: 9px;
+    overflow-x: auto;
+    padding: 14px 16px 8px;
+    scrollbar-width: none;
+}
+
+.exm-mob-chip-row::-webkit-scrollbar {
+    display: none;
+}
+
+.exm-mob-chip-row button {
+    min-height: 34px;
+    flex: 0 0 auto;
+    padding: 0 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 12px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.exm-mob-chip-row button.is-active {
+    border-color: #111827;
+    background: #111827;
+    color: #ffffff;
+}
+
+.exm-mob-section {
+    display: grid;
+    gap: 14px;
+    padding: 18px 16px;
+}
+
+.exm-mob-section__head {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.exm-mob-section__head h2 {
+    margin: 0;
+    color: #111827;
+    font-size: 23px;
+    line-height: 1.12;
+}
+
+.exm-mob-section__head a,
+.exm-mob-section__head small {
+    color: #0056d2;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.exm-mob-rail {
+    width: calc(100vw - 16px);
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 0 16px 8px 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.exm-mob-rail::-webkit-scrollbar {
+    display: none;
+}
+
+.exm-mob-card {
+    flex: 0 0 min(78vw, 320px);
+    min-height: 222px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d9e2ef;
+    border-top: 4px solid var(--module-color, #0056d2);
+    border-radius: 8px;
+    background: #ffffff;
+    color: inherit;
+    text-align: left;
+    scroll-snap-align: start;
+    box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+}
+
+.exm-mob-card__media {
+    position: relative;
+    height: 138px;
+    overflow: hidden;
+}
+
+.exm-mob-card__media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.exm-mob-card__media::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 64px;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0), rgba(15, 23, 42, 0.76));
+}
+
+.exm-mob-card__media span {
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.exm-mob-card__body {
+    min-height: 218px;
+    display: grid;
+    gap: 8px;
+    padding: 18px;
+}
+
+.exm-mob-card__body small {
+    color: var(--module-color, #0056d2);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.exm-mob-provider {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.exm-mob-provider img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.exm-mob-card__body h3 {
+    margin: 0;
+    color: #111827;
+    font-size: 18px;
+    line-height: 1.18;
+}
+
+.exm-mob-card__body p {
+    margin: 0;
+    color: #667085;
+    font-size: 13px;
+    line-height: 1.42;
+}
+
+.exm-mob-card__body strong {
+    color: #344054;
+    font-size: 12px;
+}
+
+.exm-mob-band {
+    display: grid;
+    gap: 8px;
+    margin: 8px 16px;
+    padding: 22px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0056d2 0%, #31b778 100%);
+    color: #ffffff;
+}
+
+.exm-mob-band span,
+.exm-mob-band h2,
+.exm-mob-band p {
+    color: #ffffff;
+}
+
+.exm-mob-band h2 {
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.08;
+}
+
+.exm-mob-band p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+.exm-mob-list {
+    display: grid;
+    gap: 12px;
+}
+
+.exm-mob-module {
+    overflow: hidden;
+    border: 1px solid #d9e2ef;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.exm-mob-module.is-open {
+    border-color: #0056d2;
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.08);
+}
+
+.exm-mob-module__head {
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    padding: 16px;
+    border: 0;
+    background: #ffffff;
+    color: inherit;
+    text-align: left;
+}
+
+.exm-mob-module__head span {
+    width: fit-content;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #eef4ff;
+    color: #0056d2;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.exm-mob-module__head h3 {
+    margin: 0;
+    color: #111827;
+    font-size: 20px;
+    line-height: 1.18;
+}
+
+.exm-mob-module__head p {
+    margin: 0;
+    color: #667085;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+.exm-mob-module__head div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.exm-mob-module__head strong {
+    color: #344054;
+    font-size: 12px;
+}
+
+.exm-mob-module__body {
+    display: grid;
+    gap: 10px;
+    padding: 0 16px 16px;
+}
+
+.exm-mob-module__body section {
+    display: grid;
+    gap: 8px;
+    padding: 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #f8fafc;
+}
+
+.exm-mob-module__body h4 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 0;
+    color: #111827;
+    font-size: 15px;
+}
+
+.exm-mob-module__body h4 span {
+    color: #0056d2;
+    font-size: 12px;
+}
+
+.exm-mob-module__body ul {
+    display: grid;
+    gap: 7px;
+    margin: 0;
+    padding-left: 18px;
+}
+
+.exm-mob-module__body li {
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.42;
+}
+
+.exm-mob-empty {
+    padding: 22px;
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.exm-mob-empty h3 {
+    margin: 0 0 8px;
+    color: #111827;
+    font-size: 18px;
+}
+
+.exm-mob-empty p {
+    margin: 0;
+    color: #667085;
+    font-size: 14px;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Premedicina - Sistema endocrino y regulación hormonal - bloque 1">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="910" y1="270" x2="1010" y2="170" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="981" y1="317" x2="1077" y2="231" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1052" y1="364" x2="874" y2="292" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="863" y1="191" x2="941" y2="353" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="934" y1="238" x2="1008" y2="184" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1005" y1="285" x2="1075" y2="245" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="1060" cy="250" r="4" fill="#2563eb" opacity="0.18"/><circle cx="843" cy="309" r="5" fill="#2563eb" opacity="0.26"/><circle cx="926" cy="368" r="6" fill="#2563eb" opacity="0.34"/><circle cx="1009" cy="167" r="7" fill="#2563eb" opacity="0.42"/><circle cx="1092" cy="226" r="8" fill="#2563eb" opacity="0.18"/><circle cx="875" cy="285" r="9" fill="#2563eb" opacity="0.26"/><circle cx="958" cy="344" r="10" fill="#2563eb" opacity="0.34"/><circle cx="1041" cy="143" r="11" fill="#2563eb" opacity="0.42"/><circle cx="824" cy="202" r="12" fill="#2563eb" opacity="0.18"/><circle cx="907" cy="261" r="13" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="310" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="320" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">PREMEDICINA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Sistema endocrino y regulación</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">hormonal - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 29</text>
+</svg>

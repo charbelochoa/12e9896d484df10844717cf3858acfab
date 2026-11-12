@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-label="Mapa visual de Ciencias experimentales">
+  <rect width="960" height="480" rx="28" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="424" rx="24" fill="#ffffff" stroke="#dbeafe"/>
+  <g transform="translate(360 58) scale(0.86)">
+
+        <path d="M238 82h188M286 82v110L178 344h296L366 192V82" fill="#0f766e" opacity="0.1" stroke="#0f766e" stroke-width="8" stroke-linejoin="round"/>
+        <path d="M226 274h208" stroke="#38bdf8" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="298" cy="218" r="13" fill="#0f766e" opacity="0.32"/><circle cx="360" cy="244" r="18" fill="#0f766e" opacity="0.32"/>
+  </g>
+  <text x="64" y="100" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#0f766e" letter-spacing="1.5">MAPA VISUAL</text>
+  <text x="64" y="166" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="900" fill="#0f172a">Ciencias experimentales</text>
+  <text x="64" y="220" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="500" fill="#64748b">Ubica conceptos, relaciones y pasos antes de resolver.</text>
+  <path d="M64 302h260M64 338h210M64 374h300" stroke="#0f766e" stroke-width="10" stroke-linecap="round" opacity="0.15"/>
+</svg>

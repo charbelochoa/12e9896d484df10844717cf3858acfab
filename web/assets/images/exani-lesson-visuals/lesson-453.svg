@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Plantas: estructura y funciones vitales - bloque 1">
+  <rect width="1200" height="560" fill="#ecfeff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#a5f3fc" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#0891b2" opacity="0.16"/>
+  <line x1="947" y1="333" x2="1033" y2="319" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1018" y1="160" x2="830" y2="380" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="829" y1="207" x2="897" y2="211" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="900" y1="254" x2="964" y2="272" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="971" y1="301" x2="1031" y2="333" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1042" y1="348" x2="828" y2="164" stroke="#0891b2" stroke-width="2" opacity="0.18"/>
+  <circle cx="1061" cy="219" r="7" fill="#0891b2" opacity="0.18"/><circle cx="844" cy="278" r="8" fill="#0891b2" opacity="0.26"/><circle cx="927" cy="337" r="9" fill="#0891b2" opacity="0.34"/><circle cx="1010" cy="136" r="10" fill="#0891b2" opacity="0.42"/><circle cx="1093" cy="195" r="11" fill="#0891b2" opacity="0.18"/><circle cx="876" cy="254" r="12" fill="#0891b2" opacity="0.26"/><circle cx="959" cy="313" r="13" fill="#0891b2" opacity="0.34"/><circle cx="1042" cy="372" r="4" fill="#0891b2" opacity="0.42"/><circle cx="825" cy="171" r="5" fill="#0891b2" opacity="0.18"/><circle cx="908" cy="230" r="6" fill="#0891b2" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="420" width="183" height="10" rx="5" fill="#0891b2"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="448" width="271" height="10" rx="5" fill="#0891b2" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#0891b2" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Plantas: estructura y funciones</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">vitales - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#0891b2">Leccion 29</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Aritmética - Mínimo común múltiplo y máximo común divisor - bloque 2">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#cbd5e1" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#475569" opacity="0.16"/>
+  <line x1="829" y1="311" x2="941" y2="293" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="900" y1="358" x2="1008" y2="354" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="971" y1="185" x2="1075" y2="185" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1042" y1="232" x2="872" y2="246" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="853" y1="279" x2="939" y2="307" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="924" y1="326" x2="1006" y2="368" stroke="#475569" stroke-width="2" opacity="0.18"/>
+  <circle cx="847" cy="353" r="5" fill="#475569" opacity="0.18"/><circle cx="930" cy="152" r="6" fill="#475569" opacity="0.26"/><circle cx="1013" cy="211" r="7" fill="#475569" opacity="0.34"/><circle cx="1096" cy="270" r="8" fill="#475569" opacity="0.42"/><circle cx="879" cy="329" r="9" fill="#475569" opacity="0.18"/><circle cx="962" cy="388" r="10" fill="#475569" opacity="0.26"/><circle cx="1045" cy="187" r="11" fill="#475569" opacity="0.34"/><circle cx="828" cy="246" r="12" fill="#475569" opacity="0.42"/><circle cx="911" cy="305" r="13" fill="#475569" opacity="0.18"/><circle cx="994" cy="364" r="4" fill="#475569" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="420" width="161" height="10" rx="5" fill="#475569"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="448" width="397" height="10" rx="5" fill="#475569" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#475569" letter-spacing="2">ARITMÉTICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Mínimo común múltiplo y máximo</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">común divisor - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#475569">Leccion 31</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Matemáticas financieras - Sucesiones y series aplicadas a finanzas - bloque 1">
+  <rect width="1200" height="560" fill="#ecfeff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#a5f3fc" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#0891b2" opacity="0.16"/>
+  <line x1="878" y1="282" x2="942" y2="346" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="949" y1="329" x2="1009" y2="177" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="1020" y1="156" x2="1076" y2="238" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="831" y1="203" x2="873" y2="299" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="902" y1="250" x2="940" y2="360" stroke="#0891b2" stroke-width="2" opacity="0.18"/><line x1="973" y1="297" x2="1007" y2="191" stroke="#0891b2" stroke-width="2" opacity="0.18"/>
+  <circle cx="924" cy="326" r="6" fill="#0891b2" opacity="0.18"/><circle cx="1007" cy="385" r="7" fill="#0891b2" opacity="0.26"/><circle cx="1090" cy="184" r="8" fill="#0891b2" opacity="0.34"/><circle cx="873" cy="243" r="9" fill="#0891b2" opacity="0.42"/><circle cx="956" cy="302" r="10" fill="#0891b2" opacity="0.18"/><circle cx="1039" cy="361" r="11" fill="#0891b2" opacity="0.26"/><circle cx="822" cy="160" r="12" fill="#0891b2" opacity="0.34"/><circle cx="905" cy="219" r="13" fill="#0891b2" opacity="0.42"/><circle cx="988" cy="278" r="4" fill="#0891b2" opacity="0.18"/><circle cx="1071" cy="337" r="5" fill="#0891b2" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="420" width="282" height="10" rx="5" fill="#0891b2"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#a5f3fc"/>
+  <rect x="92" y="448" width="404" height="10" rx="5" fill="#0891b2" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#0891b2" letter-spacing="2">MATEMÁTICAS FINANCIERAS</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Sucesiones y series aplicadas a</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">finanzas - bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#0891b2">Leccion 16</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Biología - Fotosíntesis - bloque 2">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="918" y1="162" x2="862" y2="366" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="989" y1="209" x2="929" y2="197" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1060" y1="256" x2="996" y2="258" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="871" y1="303" x2="1063" y2="319" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="942" y1="350" x2="860" y2="380" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1013" y1="177" x2="927" y2="211" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="1004" cy="166" r="6" fill="#2563eb" opacity="0.18"/><circle cx="1087" cy="225" r="7" fill="#2563eb" opacity="0.26"/><circle cx="870" cy="284" r="8" fill="#2563eb" opacity="0.34"/><circle cx="953" cy="343" r="9" fill="#2563eb" opacity="0.42"/><circle cx="1036" cy="142" r="10" fill="#2563eb" opacity="0.18"/><circle cx="819" cy="201" r="11" fill="#2563eb" opacity="0.26"/><circle cx="902" cy="260" r="12" fill="#2563eb" opacity="0.34"/><circle cx="985" cy="319" r="13" fill="#2563eb" opacity="0.42"/><circle cx="1068" cy="378" r="4" fill="#2563eb" opacity="0.18"/><circle cx="851" cy="177" r="5" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="322" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="404" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">BIOLOGÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Fotosíntesis - bloque 2</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 13</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Filosofía - Lógica, argumentación y falacias - bloque 4">
+  <rect width="1200" height="560" fill="#eff6ff"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#bfdbfe" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#2563eb" opacity="0.16"/>
+  <line x1="901" y1="179" x2="929" y2="367" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="972" y1="226" x2="996" y2="198" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="1043" y1="273" x2="1063" y2="259" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="854" y1="320" x2="860" y2="320" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="925" y1="367" x2="927" y2="381" stroke="#2563eb" stroke-width="2" opacity="0.18"/><line x1="996" y1="194" x2="994" y2="212" stroke="#2563eb" stroke-width="2" opacity="0.18"/>
+  <circle cx="1063" cy="377" r="13" fill="#2563eb" opacity="0.18"/><circle cx="846" cy="176" r="4" fill="#2563eb" opacity="0.26"/><circle cx="929" cy="235" r="5" fill="#2563eb" opacity="0.34"/><circle cx="1012" cy="294" r="6" fill="#2563eb" opacity="0.42"/><circle cx="1095" cy="353" r="7" fill="#2563eb" opacity="0.18"/><circle cx="878" cy="152" r="8" fill="#2563eb" opacity="0.26"/><circle cx="961" cy="211" r="9" fill="#2563eb" opacity="0.34"/><circle cx="1044" cy="270" r="10" fill="#2563eb" opacity="0.42"/><circle cx="827" cy="329" r="11" fill="#2563eb" opacity="0.18"/><circle cx="910" cy="388" r="12" fill="#2563eb" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="420" width="229" height="10" rx="5" fill="#2563eb"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="92" y="448" width="313" height="10" rx="5" fill="#2563eb" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#2563eb" letter-spacing="2">FILOSOFÍA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Lógica, argumentación y falacias -</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">bloque 4</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#2563eb">Leccion 14</text>
+</svg>

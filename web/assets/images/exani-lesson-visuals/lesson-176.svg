@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Aritmética - Razones y proporciones - bloque 3">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#cbd5e1" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#475569" opacity="0.16"/>
+  <line x1="974" y1="326" x2="1016" y2="368" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1045" y1="153" x2="1083" y2="199" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="856" y1="200" x2="880" y2="260" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="927" y1="247" x2="947" y2="321" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="998" y1="294" x2="1014" y2="382" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1069" y1="341" x2="1081" y2="213" stroke="#475569" stroke-width="2" opacity="0.18"/>
+  <circle cx="1012" cy="358" r="10" fill="#475569" opacity="0.18"/><circle cx="1095" cy="157" r="11" fill="#475569" opacity="0.26"/><circle cx="878" cy="216" r="12" fill="#475569" opacity="0.34"/><circle cx="961" cy="275" r="13" fill="#475569" opacity="0.42"/><circle cx="1044" cy="334" r="4" fill="#475569" opacity="0.18"/><circle cx="827" cy="133" r="5" fill="#475569" opacity="0.26"/><circle cx="910" cy="192" r="6" fill="#475569" opacity="0.34"/><circle cx="993" cy="251" r="7" fill="#475569" opacity="0.42"/><circle cx="1076" cy="310" r="8" fill="#475569" opacity="0.18"/><circle cx="859" cy="369" r="9" fill="#475569" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="420" width="306" height="10" rx="5" fill="#475569"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="448" width="292" height="10" rx="5" fill="#475569" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#475569" letter-spacing="2">ARITMÉTICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Razones y proporciones - bloque 3</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#475569">Leccion 16</text>
+</svg>

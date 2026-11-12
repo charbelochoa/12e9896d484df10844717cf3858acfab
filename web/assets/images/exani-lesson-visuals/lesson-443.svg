@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Aritmética - Problemas integrales tipo EXANI-II - bloque 1">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <rect x="34" y="34" width="1132" height="492" rx="34" fill="#ffffff" opacity="0.72"/>
+  <path d="M750 115 C890 20 1080 60 1138 212 C1186 338 1114 463 980 494 C846 525 694 455 675 315 C663 229 692 158 750 115Z" fill="#cbd5e1" opacity="0.75"/>
+  <path d="M782 346 L914 166 L1087 406 Z" fill="#475569" opacity="0.16"/>
+  <line x1="917" y1="243" x2="893" y2="349" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="988" y1="290" x2="960" y2="180" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1059" y1="337" x2="1027" y2="241" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="870" y1="164" x2="824" y2="302" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="941" y1="211" x2="891" y2="363" stroke="#475569" stroke-width="2" opacity="0.18"/><line x1="1012" y1="258" x2="958" y2="194" stroke="#475569" stroke-width="2" opacity="0.18"/>
+  <circle cx="991" cy="209" r="7" fill="#475569" opacity="0.18"/><circle cx="1074" cy="268" r="8" fill="#475569" opacity="0.26"/><circle cx="857" cy="327" r="9" fill="#475569" opacity="0.34"/><circle cx="940" cy="386" r="10" fill="#475569" opacity="0.42"/><circle cx="1023" cy="185" r="11" fill="#475569" opacity="0.18"/><circle cx="806" cy="244" r="12" fill="#475569" opacity="0.26"/><circle cx="889" cy="303" r="13" fill="#475569" opacity="0.34"/><circle cx="972" cy="362" r="4" fill="#475569" opacity="0.42"/><circle cx="1055" cy="161" r="5" fill="#475569" opacity="0.18"/><circle cx="838" cy="220" r="6" fill="#475569" opacity="0.26"/>
+  <rect x="92" y="420" width="360" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="420" width="173" height="10" rx="5" fill="#475569"/>
+  <rect x="92" y="448" width="520" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="92" y="448" width="201" height="10" rx="5" fill="#475569" opacity="0.72"/>
+  <text x="92" y="95" font-size="21" font-weight="750" fill="#475569" letter-spacing="2">ARITMÉTICA</text>
+  <text x="92" y="204" font-size="52" font-weight="800" fill="#0f172a">Problemas integrales tipo EXANI-II</text>
+<text x="92" y="262" font-size="52" font-weight="800" fill="#0f172a">- bloque 1</text>
+  <text x="92" y="502" font-size="18" font-weight="700" fill="#64748b">Recurso visual para estudiar el tema antes de resolver la practica.</text>
+  <text x="1058" y="86" text-anchor="end" font-size="18" font-weight="800" fill="#475569">Leccion 43</text>
+</svg>
